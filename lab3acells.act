@@ -1,0 +1,456 @@
+import globals;
+import std::cells;
+import std::channel;
+
+open std::cells;
+
+defproc celem2 (bool? A; bool? B; bool! Y)
+{
+   prs {
+      A & B -> Y-
+      ~A & ~B -> Y+
+   }
+}
+
+defproc noninvcelem2(bool? A; bool? B; bool! Y){
+    INVX1 inv;
+    celem2 celem;
+    celem.A = A;
+    celem.B = B;
+    inv.A = celem.Y;
+    inv.Y = Y;
+}
+defproc celem3 (bool? A; bool? B;bool? C; bool! Y)
+{
+   prs {
+      A & B & C -> Y-
+      ~A & ~B & ~C -> Y+
+   }
+}
+template<pint N> defproc DELX1(bool? A;bool! Y){
+    INVX1 delay[N];
+    delay[0].A = A;
+    (i : N-1 : delay[i+1].A = delay[i].Y;)
+    Y = delay[N-1].Y;
+}
+
+defproc PulseGenerator(bool? A;bool? pulseout){
+    INVX1 inv1;
+    INVX1 inv2;
+    NAND2X1 pulsegen;
+    DELX1<4> del;
+    
+    del.A = A;
+    del.Y = inv2.A;
+    A = pulsegen.A;
+    pulsegen.B = inv2.Y;
+    pulsegen.Y = inv1.A;
+    pulseout = inv1.Y;
+
+}
+
+defproc FuncControlCircuit(bool? Lr; bool! La;bool! Rr; bool? Ra;bool! pulseout){
+    celem2 celem;
+    INVX1 lainv;
+    INVX1 cinv;
+    DELX1<8> del;
+    NOR2X1 resetnor;  
+    resetnor.A = Reset;
+    resetnor.B = Ra;
+
+    celem.A = resetnor.Y;
+    celem.B = Lr;      
+    celem.Y = cinv.A;
+    del.A = cinv.Y;
+    La = cinv.Y;
+    del.Y = Rr;
+    //del.Y = La;
+    //pulseout = cinv.Y;
+    PulseGenerator pg;
+    pg.A = cinv.Y;
+    pulseout = pg.pulseout;
+}
+//La down, Rr up; Ra up, Lr up; Rr down, La up; Ra down, Lr down
+defproc InitialTokenBufferControlCircuit(bool? Lr; bool! La;bool! Rr; bool? Ra;bool! pulseout){
+    celem2 celem;
+    INVX1 cinv;
+    DELX1<8> del;
+    NOR2X1 resetnor;  
+   
+    celem.A = Ra;
+    celem.B = Lr;      
+    celem.Y = cinv.A;
+    del.A = cinv.Y;
+    La = cinv.Y;
+
+    resetnor.A = Reset;
+    resetnor.B = del.Y;
+    resetnor.Y = Rr;
+
+    // del.Y = Rr;
+    //del.Y = La;
+    //pulseout = cinv.Y;
+    PulseGenerator pg;
+    pg.A = cinv.Y;
+    pulseout = pg.pulseout;
+}
+
+defproc MergeControlCircuit(bool? Lr; bool! La;bool! Rr; bool? Ra;bool? C; bool! pulseout){
+    celem3 celem;
+    INVX1 lainv;
+    INVX1 cinv;
+    DELX1<4> del;
+    NOR2X1 resetnor;  
+
+    resetnor.A = Reset;
+    resetnor.B = Ra;
+    celem.A = resetnor.Y;
+    celem.B = Lr;      
+    celem.C = C;      
+    celem.Y = cinv.A;
+     del.A = cinv.Y;
+    del.Y = Rr;
+    del.Y = La;
+    pulseout = cinv.Y;
+}
+//MAIN CELLS
+defproc source (std::channel::bd<8> X)
+{
+    NOR2X1 controlgate;
+    controlgate.A = X.a;
+    controlgate.B = Reset;
+    controlgate.Y = X.r;
+    TIELOX1 tempt[8];
+    (i : 8 :  X.d[i] = tempt[i].Y;)
+
+}
+
+template <pbool val> defproc source_control(std::channel::bd<1> X){
+    NOR2X1 controlgate;
+    controlgate.A = X.a;
+    controlgate.B = Reset;
+    controlgate.Y = X.r;
+
+    TIEHIX1 th;
+    TIELOX1 tl;
+
+    [val -> X.d[0] = th.Y; []else -> X.d[0] = tl.Y;]
+}
+
+template<pint tok> defproc source_num (std::channel::bd<8> X)
+{
+    NOR2X1 controlgate;
+    controlgate.A = X.a;
+    controlgate.B = Reset;
+    controlgate.Y = X.r;
+    
+    TIELOX1 tempt[16];
+    TIEHIX1 tempt2[16];
+
+    [tok % 2 = 1 -> X.d[0] = tempt2[0].Y;[]else-> X.d[0] = tempt[0].Y;]
+    (i : 1..7 : [ (tok >> (i)) % 2 = 1  -> X.d[i] = tempt2[i].Y;
+        []else -> X.d[i] = tempt[i].Y;])
+
+}
+
+defproc sink(std::channel::bd<8> X){
+    INVX1 cg[2];
+    cg[0].A = X.r;
+    cg[1].A = cg[0].Y;
+    cg[1].Y = X.a;
+}
+
+defproc oneplacebuffer(std::channel::bd<8> L; std::channel::bd<8> R){
+    FuncControlCircuit fcc;
+    fcc.La = L.a;
+    fcc.Lr = L.r;
+    fcc.Ra = R.a;
+    fcc.Rr = R.r;
+
+    LATCH datalatches[8];
+    (i : 8 : datalatches[i].D = L.d[i];datalatches[i].CLK = fcc.pulseout; datalatches[i].Q = R.d[i];)
+
+
+}
+
+defproc tok_buf(std::channel::bd<8> L; std::channel::bd<8> R){
+    InitialTokenBufferControlCircuit fcc;
+    fcc.La = L.a;
+    fcc.Lr = L.r;
+    fcc.Ra = R.a;
+    fcc.Rr = R.r;
+    //DELX1<4> resetdelay;
+    //resetdelay.A = Reset;
+    //NOR2X1 resetnorLr;
+    //resetnorLr.A = L.r;
+    //resetnorLr.B = resetdelay.Y;
+    //INVX1 invLr;
+    //invLr.A = resetnorLr.Y;
+    //invLr.Y = fcc.Lr;
+
+    //NOR2X1 resetnorLa;
+    //resetnorLa.A = fcc.La;
+    //resetnorLa.B = Reset;
+    //INVX1 invLa;
+    //invLa.A = resetnorLa.Y;
+    //invLa.Y = L.a;
+    //resetdelay.A = Reset;
+    //NOR2X1 resetnorRr;
+    //resetnorRr.A = fcc.Rr;
+    //resetnorRr.B = resetdelay.Y;
+    //INVX1 invRr;
+    //invRr.A = resetnorRr.Y;
+    //invRr.Y = R.r;
+
+    LATCHLO datalatches[8];
+    (i : 8 : datalatches[i].D = L.d[i];datalatches[i].R = Reset;datalatches[i].CLK = fcc.pulseout; datalatches[i].Q = R.d[i];)
+}
+
+
+defproc SPLITX2(std::channel::bd<8> L;std::channel::bd<8> A;std::channel::bd<8> B;std::channel::bd<1> C){
+    NAND2X1 splitA;
+    NAND2X1 splitB;
+    INVX1 outputA;
+    INVX1 outputB;
+    DELX1<4> delA, delB;
+    noninvcelem2 outputcelemA,outputcelemB;
+    INVX1 acknowledgeAINV, acknowledgeBINV;
+
+    INVX1 inputCNOT;
+    noninvcelem2 inputcelem;
+
+    //Waits for the C and L to both have data ready
+    inputcelem.A = L.r;
+    inputcelem.B = C.r;
+
+    //Inverts the control data bit for the purpose of selection
+    inputCNOT.A = C.d[0];
+
+    splitA.A = inputcelem.Y;
+    splitA.B = inputCNOT.Y;
+
+    splitB.A = inputcelem.Y;
+    splitB.B = C.d[0];
+
+    outputA.A = splitA.Y;
+    outputB.A = splitB.Y;
+
+    oneplacebuffer bufA,bufB;
+
+    bufA.R = A;
+    bufA.L.r = outputA.Y;
+    bufA.L.d = L.d;
+
+    bufB.R = B;
+    bufB.L.r = outputB.Y;
+    bufB.L.d = L.d;
+
+    
+    
+
+    //Since only one of the acknowledge bits will be raised, to combine the two acknowledge lines can use an OR gate.
+    NOR2X1 acknowledgeNOR;
+    INVX1 acknowledgeINV;
+    acknowledgeNOR.A = bufA.L.a;
+    acknowledgeNOR.B = bufB.L.a;
+    acknowledgeNOR.Y = acknowledgeINV.A;
+
+    //Copy out the control bit
+    L.a = acknowledgeINV.Y;
+    C.a = acknowledgeINV.Y;
+
+
+}
+
+defproc COPYX2(std::channel::bd<8> L;std::channel::bd<8> A;std::channel::bd<8> B){
+    oneplacebuffer copybuf;
+    copybuf.L = L;
+    copybuf.R.r = A.r;
+    copybuf.R.r = B.r;
+    noninvcelem2 acknowledgecelem;
+    acknowledgecelem.A = A.a;
+    acknowledgecelem.B = B.a;
+    copybuf.R.a = acknowledgecelem.Y;
+    copybuf.R.d = A.d;
+    copybuf.R.d = B.d;
+}
+
+// WHat is RA, RB for the input into the celem3 (the reset input)
+
+defproc MERGEX2(std::channel::bd<8> R;std::channel::bd<8> A;std::channel::bd<8> B;std::channel::bd<1> C ){
+
+    MergeControlCircuit mccA;
+    MergeControlCircuit mccB;
+    
+    NAND2X1 splitA;
+    NAND2X1 splitB;
+    INVX1 cA;
+    INVX1 cB;
+    INVX1 cbMaker;
+    C.r = splitA.A;
+    //inputInv.A =  C.d[0];
+     C.d[0] = cbMaker.A;
+     cbMaker.Y = splitA.B;
+    splitA.Y = cA.A;
+
+
+    C.r = splitB.A;
+    C.d[0] = splitB.B;
+    splitB.Y = cB.A;
+
+    NOR2X1 outgate;
+    INVX1 outgateinv;
+    outgateinv.A = outgate.Y;
+
+    mccA.Lr = A.r; 
+    mccA.La = A.a; 
+    mccA.C = cA.Y; 
+    mccA.Ra = R.a; 
+    mccA.Rr = outgate.A; 
+
+    mccB.Lr = B.r; 
+    mccB.La = B.a; 
+    mccB.C = cB.Y; 
+    mccB.Ra = R.a; 
+    mccB.Rr = outgate.B; 
+    
+    DELX1<8> del;
+    PulseGenerator pg;
+    pg.A = outgateinv.Y;
+    del.A = outgateinv.Y;
+    R.r = del.Y;
+    C.a = outgateinv.Y;
+    MUX2X1 muxes[8];
+    INVX1 muxinv[8];
+    LATCH datalatches[8];
+
+    (i : 8 : muxes[i].B = A.d[i];
+             muxes[i].A = B.d[i];
+             muxes[i].S = C.d[0];
+             muxes[i].Y = muxinv[i].A;
+             muxinv[i].Y = datalatches[i].D;
+             datalatches[i].CLK = pg.pulseout;
+             datalatches[i].Q = R.d[i];)
+
+}
+
+
+defproc FUNCTIONADDX2(std::channel::bd<8> R;std::channel::bd<8> A;std::channel::bd<8> B){
+    // A.r & B.r #> L.r 
+    // L.a => A.a;L.a => B.a;
+    //Enviroment is A.r,B.r, R.a
+    DELX1<8> delay;
+
+    FuncControlCircuit fcc;
+    noninvcelem2 inputcelem;
+    inputcelem.A = A.r;
+    inputcelem.B = B.r;
+
+    fcc.Lr = inputcelem.Y;
+    fcc.La = A.a;
+    fcc.La = B.a;
+
+    fcc.Ra = R.a;
+
+    delay.A = fcc.Rr;
+    R.r = delay.Y;
+
+    FAX1 fa[8];
+    LATCH datalatchesA[8];
+    LATCH datalatchesB[8];
+    (i : 8 : datalatchesA[i].D = A.d[i];datalatchesA[i].CLK = fcc.pulseout; datalatchesA[i].Q = fa[i].A;)
+    (i : 8 : datalatchesB[i].D = B.d[i];datalatchesB[i].CLK = fcc.pulseout; datalatchesB[i].Q = fa[i].B;fa[i].YS = R.d[i];)
+    TIELOX1 initialcarry;
+    fa[0].C = initialcarry.Y;
+    (i : 7 : fa[i+1].C = fa[i].YC;)
+    
+}
+
+
+defproc test(){
+    sink snk;
+    source src;
+    
+    oneplacebuffer b1;
+
+    std::channel::bd<8> L = src.X; 
+    std::channel::bd<8> R = snk.X;
+
+    
+    b1.L = src.X;
+    b1.R = snk.X;
+
+    source srcInitialToken;
+    sink snkInitialToken;
+    
+    tok_buf bInitialToken;
+
+    std::channel::bd<8> LInitialToken = srcInitialToken.X; 
+    std::channel::bd<8> RInitialToken = snkInitialToken.X;
+
+    
+    bInitialToken.L = srcInitialToken.X;
+    bInitialToken.R = snkInitialToken.X;
+
+    sink splitsnkA;
+    sink splitsnkB;
+    source splitsrc;
+
+    std::channel::bd<8> spL = splitsrc.X; 
+    std::channel::bd<8> spA = splitsnkA.X;
+    std::channel::bd<8> spB = splitsnkB.X;
+
+    
+    source_control<true> control;
+    SPLITX2 split2; 
+    split2.L = spL;
+    split2.C = control.X;
+    split2.A = spA;
+    split2.B = spB;
+
+    sink copysnkB;
+    sink copysnkA;
+    source copysrc;
+
+    std::channel::bd<8> cpL = copysrc.X; 
+    std::channel::bd<8> cpA = copysnkA.X;
+    std::channel::bd<8> cpB = copysnkB.X;
+
+    COPYX2 cpbuf;
+
+    cpbuf.L = cpL;
+    cpbuf.A = cpA;
+    cpbuf.B = cpB;
+
+    sink addsnk;
+    source_num<13> addsrcA;
+    source_num<4> addsrcNumB;
+
+  
+
+    FUNCTIONADDX2 addbuf;
+
+    addbuf.R = addsnk.X;
+    addbuf.A = addsrcA.X;
+    addbuf.B = addsrcNumB.X;
+
+
+
+    sink mergesnk;
+    source mergesrcA;
+    source_num<1> mergesrcB;
+
+    std::channel::bd<8> mgR = mergesnk.X; 
+    std::channel::bd<8> mgA = mergesrcA.X;
+    std::channel::bd<8> mgB = mergesrcB.X;
+
+    
+    source_control<true> controlmg;
+
+
+    MERGEX2 merge2; 
+    merge2.R = mgR;
+    merge2.C = controlmg.X;
+    merge2.A = mgA;
+    merge2.B = mgB;
+}

@@ -1,0 +1,1036 @@
+###########################
+# Written by PhyDB at 2022-11-13.08:41:27
+###########################
+VERSION 5.6 ;
+
+DIVIDERCHAR "/" ;
+
+BUSBITCHARS "[]" ;
+
+DESIGN accum ;
+
+UNITS DISTANCE MICRONS 1000 ;
+
+DIEAREA ( 6000 5400 ) ( 113400 113400 ) ;
+
+
+TRACKS X 6150 DO 179 STEP 600 LAYER li1 ;
+TRACKS Y 5550 DO 180 STEP 600 LAYER li1 ;
+TRACKS X 6075 DO 358 STEP 300 LAYER met1 ;
+TRACKS Y 5475 DO 360 STEP 300 LAYER met1 ;
+TRACKS X 6075 DO 358 STEP 300 LAYER met2 ;
+TRACKS Y 5475 DO 360 STEP 300 LAYER met2 ;
+TRACKS X 6150 DO 179 STEP 600 LAYER met3 ;
+TRACKS Y 5550 DO 180 STEP 600 LAYER met3 ;
+TRACKS X 6150 DO 179 STEP 600 LAYER met4 ;
+TRACKS Y 5550 DO 180 STEP 600 LAYER met4 ;
+TRACKS X 6825 DO 32 STEP 3300 LAYER met5 ;
+TRACKS Y 6225 DO 32 STEP 3300 LAYER met5 ;
+
+
+COMPONENTS 214 ;
+   - ymerge_adatalatches_50_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 24000 49500 ) N ;
+   - ymerge_adatalatches_51_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 18600 25200 ) N ;
+   - ymerge_adatalatches_52_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 49800 49500 ) N ;
+   - ymerge_adatalatches_53_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 71400 77100 ) N ;
+   - ymerge_adatalatches_54_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 24000 77100 ) N ;
+   - ymerge_adatalatches_55_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 94800 90000 ) FS ;
+   - ymerge_adatalatches_56_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 88800 63600 ) FS ;
+   - ymerge_adatalatches_57_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 67200 37800 ) FS ;
+   - ymerge_amccB_alainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 15600 6300 ) N ;
+   - ymerge_amccB_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 100800 17100 ) N ;
+   - ymerge_amccB_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 103800 17100 ) N ;
+   - ymerge_amccB_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 96000 11100 ) FS ;
+   - ymerge_amccB_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 92400 11100 ) FS ;
+   - ymerge_amccB_acinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 97800 17100 ) N ;
+   - ymerge_amccB_aresetnor _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 85200 21300 ) FS ;
+   - ymerge_amccB_acelem_acx0 _0_0cell_0_0gcelem3x0 
+      + SOURCE NETLIST 
+      + PLACED ( 90000 21900 ) FS ;
+   - ymerge_amuxes_50_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 13200 98100 ) N ;
+   - ymerge_amuxes_51_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 31200 26100 ) N ;
+   - ymerge_amuxes_52_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 41400 98100 ) N ;
+   - ymerge_amuxes_53_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 84600 98100 ) N ;
+   - ymerge_amuxes_54_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 64200 98100 ) N ;
+   - ymerge_amuxes_55_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 99600 98100 ) N ;
+   - ymerge_amuxes_56_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 100800 64200 ) FS ;
+   - ymerge_amuxes_57_6 _0_0std_0_0cells_0_0MUX2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 100800 38400 ) FS ;
+   - ymerge_acbMaker _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 98400 27900 ) N ;
+   - ymerge_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 94200 6300 ) N ;
+   - ymerge_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 90600 6300 ) N ;
+   - ymerge_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 86400 6300 ) N ;
+   - ymerge_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 81600 6300 ) N ;
+   - ymerge_adel_adelay_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 76200 6300 ) N ;
+   - ymerge_adel_adelay_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 63600 6300 ) N ;
+   - ymerge_adel_adelay_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 70200 6300 ) N ;
+   - ymerge_adel_adelay_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 74400 11100 ) FS ;
+   - ymerge_apg_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 99000 11100 ) FS ;
+   - ymerge_apg_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 98400 6300 ) N ;
+   - ymerge_apg_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 102000 6300 ) N ;
+   - ymerge_apg_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 105000 6300 ) N ;
+   - ymerge_apg_apulsegen _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 102000 11100 ) FS ;
+   - ymerge_apg_ainv2 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 105000 11100 ) FS ;
+   - ymerge_apg_ainv1 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 102000 27900 ) N ;
+   - ymerge_amuxinv_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 22800 99900 ) N ;
+   - ymerge_amuxinv_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 25800 27900 ) N ;
+   - ymerge_amuxinv_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 49800 99900 ) N ;
+   - ymerge_amuxinv_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 94200 99900 ) N ;
+   - ymerge_amuxinv_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 58200 92400 ) FS ;
+   - ymerge_amuxinv_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 105000 92400 ) FS ;
+   - ymerge_amuxinv_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 97800 66000 ) FS ;
+   - ymerge_amuxinv_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 89400 40200 ) FS ;
+   - ymerge_asplitA _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 95400 27300 ) N ;
+   - ymerge_acB _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 92400 27900 ) N ;
+   - ymerge_aoutgateinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 88800 11100 ) FS ;
+   - ymerge_amccA_alainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 6300 ) N ;
+   - ymerge_amccA_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 82200 11100 ) FS ;
+   - ymerge_amccA_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 78600 11100 ) FS ;
+   - ymerge_amccA_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 69600 11100 ) FS ;
+   - ymerge_amccA_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 64200 11100 ) FS ;
+   - ymerge_amccA_acinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 84000 17100 ) N ;
+   - ymerge_amccA_aresetnor _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 80400 21300 ) FS ;
+   - ymerge_amccA_acelem_acx0 _0_0cell_0_0gcelem3x0 
+      + SOURCE NETLIST 
+      + PLACED ( 87000 17100 ) N ;
+   - ymerge_aoutgate _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 85800 10500 ) FS ;
+   - ymerge_acA _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 89400 27900 ) N ;
+   - ymerge_asplitB _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 93000 40200 ) FS ;
+   - output_aacknowledgecelem_acelem_acx0 _0_0cell_0_0gcelem2x0 
+      + SOURCE NETLIST 
+      + PLACED ( 19200 15600 ) N ;
+   - output_aacknowledgecelem_ainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 45600 17100 ) N ;
+   - output_acopybuf_adatalatches_50_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 16800 49500 ) N ;
+   - output_acopybuf_adatalatches_51_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 11400 25200 ) N ;
+   - output_acopybuf_adatalatches_52_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 40200 49500 ) N ;
+   - output_acopybuf_adatalatches_53_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 59400 63600 ) FS ;
+   - output_acopybuf_adatalatches_54_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 16800 63600 ) FS ;
+   - output_acopybuf_adatalatches_55_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 81600 77100 ) N ;
+   - output_acopybuf_adatalatches_56_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 79800 63600 ) FS ;
+   - output_acopybuf_adatalatches_57_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 60000 37800 ) FS ;
+   - output_acopybuf_afcc_alainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 12600 6300 ) N ;
+   - output_acopybuf_afcc_apg_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 71400 27900 ) N ;
+   - output_acopybuf_afcc_apg_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 74400 27900 ) N ;
+   - output_acopybuf_afcc_apg_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 77400 27900 ) N ;
+   - output_acopybuf_afcc_apg_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 80400 27900 ) N ;
+   - output_acopybuf_afcc_apg_apulsegen _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 86400 27300 ) N ;
+   - output_acopybuf_afcc_apg_ainv2 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 83400 27900 ) N ;
+   - output_acopybuf_afcc_apg_ainv1 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 85800 40200 ) FS ;
+   - output_acopybuf_afcc_acinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 81000 17100 ) N ;
+   - output_acopybuf_afcc_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 69000 17100 ) N ;
+   - output_acopybuf_afcc_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 63600 17100 ) N ;
+   - output_acopybuf_afcc_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 48600 17100 ) N ;
+   - output_acopybuf_afcc_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 48000 11100 ) FS ;
+   - output_acopybuf_afcc_adel_adelay_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 42600 11100 ) FS ;
+   - output_acopybuf_afcc_adel_adelay_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 37800 11100 ) FS ;
+   - output_acopybuf_afcc_adel_adelay_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 33600 11100 ) FS ;
+   - output_acopybuf_afcc_adel_adelay_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 30600 11100 ) FS ;
+   - output_acopybuf_afcc_aresetnor _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 66600 16800 ) N ;
+   - output_acopybuf_afcc_acelem_acx0 _0_0cell_0_0gcelem2x0 
+      + SOURCE NETLIST 
+      + PLACED ( 72000 15600 ) N ;
+   - add_ainitialcarry _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 99900 ) N ;
+   - add_adatalatchesA_50_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 49500 ) N ;
+   - add_adatalatchesA_51_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 37800 ) FS ;
+   - add_adatalatchesA_52_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 31200 49500 ) N ;
+   - add_adatalatchesA_53_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 60600 49500 ) N ;
+   - add_adatalatchesA_54_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 63600 ) FS ;
+   - add_adatalatchesA_55_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 46800 77100 ) N ;
+   - add_adatalatchesA_56_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 72000 49500 ) N ;
+   - add_adatalatchesA_57_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 48600 37800 ) FS ;
+   - add_afcc_alainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 105000 108300 ) FS ;
+   - add_afcc_apg_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 13200 21900 ) FS ;
+   - add_afcc_apg_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 20400 21900 ) FS ;
+   - add_afcc_apg_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 28200 21900 ) FS ;
+   - add_afcc_apg_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 36000 21900 ) FS ;
+   - add_afcc_apg_apulsegen _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 44400 27300 ) N ;
+   - add_afcc_apg_ainv2 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 43800 21900 ) FS ;
+   - add_afcc_apg_ainv1 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 45000 40200 ) FS ;
+   - add_afcc_acinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 42600 17100 ) N ;
+   - add_afcc_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 16200 17100 ) N ;
+   - add_afcc_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 13200 17100 ) N ;
+   - add_afcc_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 11100 ) FS ;
+   - add_afcc_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 12600 11100 ) FS ;
+   - add_afcc_adel_adelay_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 15600 11100 ) FS ;
+   - add_afcc_adel_adelay_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 18600 11100 ) FS ;
+   - add_afcc_adel_adelay_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 18600 6300 ) N ;
+   - add_afcc_adel_adelay_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 21600 6300 ) N ;
+   - add_afcc_aresetnor _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 40200 16800 ) N ;
+   - add_afcc_acelem_acx0 _0_0cell_0_0gcelem2x0 
+      + SOURCE NETLIST 
+      + PLACED ( 31200 15600 ) N ;
+   - add_ainputcelem_acelem_acx0 _0_0cell_0_0gcelem2x0 
+      + SOURCE NETLIST 
+      + PLACED ( 21600 9900 ) FS ;
+   - add_ainputcelem_ainv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 28200 17100 ) N ;
+   - add_afa_50_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 74400 ) N ;
+   - add_afa_51_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 16800 33300 ) FS ;
+   - add_afa_52_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 24000 59100 ) FS ;
+   - add_afa_53_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 34800 59100 ) FS ;
+   - add_afa_54_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 47400 59100 ) FS ;
+   - add_afa_55_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 57600 74400 ) N ;
+   - add_afa_56_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 67800 59100 ) FS ;
+   - add_afa_57_6 _0_0std_0_0cells_0_0FAX1 
+      + SOURCE NETLIST 
+      + PLACED ( 74400 33300 ) FS ;
+   - add_adatalatchesB_50_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 9600 90000 ) FS ;
+   - add_adatalatchesB_51_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 27600 37800 ) FS ;
+   - add_adatalatchesB_52_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 20400 90000 ) FS ;
+   - add_adatalatchesB_53_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 33000 90000 ) FS ;
+   - add_adatalatchesB_54_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 45600 90000 ) FS ;
+   - add_adatalatchesB_55_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 66000 90000 ) FS ;
+   - add_adatalatchesB_56_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 36000 77100 ) N ;
+   - add_adatalatchesB_57_6 _0_0std_0_0cells_0_0LATCH 
+      + SOURCE NETLIST 
+      + PLACED ( 84000 49500 ) N ;
+   - add_adelay_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 24600 6300 ) N ;
+   - add_adelay_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 28200 6300 ) N ;
+   - add_adelay_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 34200 6300 ) N ;
+   - add_adelay_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 41400 6300 ) N ;
+   - add_adelay_adelay_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 48600 6300 ) N ;
+   - add_adelay_adelay_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 56400 6300 ) N ;
+   - add_adelay_adelay_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 58800 11100 ) FS ;
+   - add_adelay_adelay_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 53400 11100 ) FS ;
+   - initialBuf_adatalatches_50_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 42600 106800 ) FS ;
+   - initialBuf_adatalatches_50_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 24600 105600 ) FS ;
+   - initialBuf_adatalatches_51_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 42000 38700 ) FS ;
+   - initialBuf_adatalatches_51_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 34800 37500 ) FS ;
+   - initialBuf_adatalatches_52_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 37200 99300 ) N ;
+   - initialBuf_adatalatches_52_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 28200 98100 ) N ;
+   - initialBuf_adatalatches_53_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 80400 99300 ) N ;
+   - initialBuf_adatalatches_53_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 72000 98100 ) N ;
+   - initialBuf_adatalatches_54_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 61200 99300 ) N ;
+   - initialBuf_adatalatches_54_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 53400 98100 ) N ;
+   - initialBuf_adatalatches_55_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 88200 90900 ) FS ;
+   - initialBuf_adatalatches_55_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 77400 89700 ) FS ;
+   - initialBuf_adatalatches_56_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 102000 79200 ) N ;
+   - initialBuf_adatalatches_56_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 91800 78000 ) N ;
+   - initialBuf_adatalatches_57_6_anx _0_0std_0_0cells_0_0NOR2X2 
+      + SOURCE NETLIST 
+      + PLACED ( 98400 38700 ) FS ;
+   - initialBuf_adatalatches_57_6_al _0_0std_0_0cells_0_0LATCHINV 
+      + SOURCE NETLIST 
+      + PLACED ( 96600 50400 ) N ;
+   - initialBuf_afcc_apg_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 38400 27900 ) N ;
+   - initialBuf_afcc_apg_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 41400 27900 ) N ;
+   - initialBuf_afcc_apg_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 47400 27900 ) N ;
+   - initialBuf_afcc_apg_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 50400 27900 ) N ;
+   - initialBuf_afcc_apg_apulsegen _0_0std_0_0cells_0_0NAND2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 56400 27300 ) N ;
+   - initialBuf_afcc_apg_ainv2 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 53400 27900 ) N ;
+   - initialBuf_afcc_apg_ainv1 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 56400 40200 ) FS ;
+   - initialBuf_afcc_acinv _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 60600 17100 ) N ;
+   - initialBuf_afcc_adel_adelay_50_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 59400 27900 ) N ;
+   - initialBuf_afcc_adel_adelay_51_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 62400 27900 ) N ;
+   - initialBuf_afcc_adel_adelay_52_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 65400 27900 ) N ;
+   - initialBuf_afcc_adel_adelay_53_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 68400 27900 ) N ;
+   - initialBuf_afcc_adel_adelay_54_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 51000 21900 ) FS ;
+   - initialBuf_afcc_adel_adelay_55_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 57600 21900 ) FS ;
+   - initialBuf_afcc_adel_adelay_56_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 64200 21900 ) FS ;
+   - initialBuf_afcc_adel_adelay_57_6 _0_0std_0_0cells_0_0INVX1 
+      + SOURCE NETLIST 
+      + PLACED ( 70200 21900 ) FS ;
+   - initialBuf_afcc_acelem_acx0 _0_0cell_0_0gcelem2x0 
+      + SOURCE NETLIST 
+      + PLACED ( 51600 15600 ) N ;
+   - initialBuf_afcc_aresetnor _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 75600 21300 ) FS ;
+   - yzero_atempt_50_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 11400 108600 ) FS ;
+   - yzero_atempt_51_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 28800 27900 ) N ;
+   - yzero_atempt_52_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 55800 108600 ) FS ;
+   - yzero_atempt_53_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 81000 108600 ) FS ;
+   - yzero_atempt_54_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 68400 108600 ) FS ;
+   - yzero_atempt_55_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 93600 108600 ) FS ;
+   - yzero_atempt_56_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 105600 79800 ) N ;
+   - yzero_atempt_57_6 _0_0std_0_0cells_0_0TIELOX1 
+      + SOURCE NETLIST 
+      + PLACED ( 96000 40500 ) FS ;
+   - yzero_acontrolgate _0_0std_0_0cells_0_0NOR2X1 
+      + SOURCE NETLIST 
+      + PLACED ( 95400 16800 ) N ;
+   - __well_tap__0 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 6600 ) N ;
+   - __well_tap__1 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 6600 ) N ;
+   - __well_tap__2 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 11700 ) FS ;
+   - __well_tap__3 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 11700 ) FS ;
+   - __well_tap__4 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 17400 ) N ;
+   - __well_tap__5 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 17400 ) N ;
+   - __well_tap__6 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 22500 ) FS ;
+   - __well_tap__7 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 22500 ) FS ;
+   - __well_tap__8 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 28200 ) N ;
+   - __well_tap__9 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 28200 ) N ;
+   - __well_tap__10 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 40800 ) FS ;
+   - __well_tap__11 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 40800 ) FS ;
+   - __well_tap__12 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 52500 ) N ;
+   - __well_tap__13 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 52500 ) N ;
+   - __well_tap__14 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 66600 ) FS ;
+   - __well_tap__15 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 66600 ) FS ;
+   - __well_tap__16 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 80100 ) N ;
+   - __well_tap__17 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 80100 ) N ;
+   - __well_tap__18 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 93000 ) FS ;
+   - __well_tap__19 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 93000 ) FS ;
+   - __well_tap__20 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 100200 ) N ;
+   - __well_tap__21 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 100200 ) N ;
+   - __well_tap__22 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 7800 108900 ) FS ;
+   - __well_tap__23 welltap_svt 
+      + SOURCE USER 
+      + PLACED ( 108600 108900 ) FS ;
+   - ppnps circuitppnp 
+      + SOURCE USER 
+      + COVER ( 6000 5400 ) N ;
+   - npwells circuitwell 
+      + SOURCE USER 
+      + COVER ( 6000 5400 ) N ;
+END COMPONENTS
+
+PINS 24 ;
+   - L.d[0] + NET L.d[0]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 90300 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[1] + NET L.d[1]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 36300 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[2] + NET L.d[2]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 98100 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[3] + NET L.d[3]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 105600 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[4] + NET L.d[4]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 42000 113400 ) S
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[5] + NET L.d[5]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 77400 113400 ) S
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[6] + NET L.d[6]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 82500 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.d[7] + NET L.d[7]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 113400 36300 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.r + NET L.r
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 33000 5400 ) N
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - L.a + NET L.a
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 20700 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - C.d[0] + NET C.d[0]
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 67200 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - C.r + NET C.r
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 113400 20700 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - C.a + NET C.a
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 86400 5400 ) N
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[0] + NET R.d[0]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 51600 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[1] + NET R.d[1]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 28500 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[2] + NET R.d[2]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 59400 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[3] + NET R.d[3]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 113400 51600 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[4] + NET R.d[4]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 74700 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[5] + NET R.d[5]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 113400 98100 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[6] + NET R.d[6]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 113400 67200 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.d[7] + NET R.d[7]
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 6000 44100 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.r + NET R.r
+      + DIRECTION OUTPUT
+      + USE SIGNAL
+      + PLACED ( 60000 5400 ) N
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - R.a + NET R.a
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 6000 13200 ) E
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+   - Reset + NET Reset
+      + DIRECTION INPUT
+      + USE SIGNAL
+      + PLACED ( 113400 82500 ) W
+      + LAYER li1 ( -150 0 ) ( 150 300 ) ;
+END PINS
+
+NETS 213 ;
+   - output.L.d[0] ( ymerge_adatalatches_50_6 Q )  ( output_acopybuf_adatalatches_50_6 D )  ;
+   - output.L.d[1] ( ymerge_adatalatches_51_6 Q )  ( output_acopybuf_adatalatches_51_6 D )  ;
+   - output.L.d[2] ( ymerge_adatalatches_52_6 Q )  ( output_acopybuf_adatalatches_52_6 D )  ;
+   - output.L.d[3] ( ymerge_adatalatches_53_6 Q )  ( output_acopybuf_adatalatches_53_6 D )  ;
+   - output.L.d[4] ( ymerge_adatalatches_54_6 Q )  ( output_acopybuf_adatalatches_54_6 D )  ;
+   - output.L.d[5] ( ymerge_adatalatches_55_6 Q )  ( output_acopybuf_adatalatches_55_6 D )  ;
+   - output.L.d[6] ( ymerge_adatalatches_56_6 Q )  ( output_acopybuf_adatalatches_56_6 D )  ;
+   - output.L.d[7] ( ymerge_adatalatches_57_6 Q )  ( output_acopybuf_adatalatches_57_6 D )  ;
+   - output.L.r ( ymerge_adel_adelay_57_6 Y )  ( output_acopybuf_afcc_acelem_acx0 in_51_6 )  ;
+   - output.L.a ( ymerge_amccB_aresetnor B )  ( ymerge_amccA_aresetnor B )  ( output_acopybuf_afcc_apg_adel_adelay_50_6 A ) 
+ ( output_acopybuf_afcc_apg_apulsegen A )  ( output_acopybuf_afcc_acinv Y )  ( output_acopybuf_afcc_adel_adelay_50_6 A )  ;
+   - ymerge.A.d[0] ( ymerge_amuxes_50_6 B )  ( initialBuf_adatalatches_50_6_anx Y )  ( initialBuf_adatalatches_50_6_al q )  ;
+   - ymerge.A.d[1] ( ymerge_amuxes_51_6 B )  ( initialBuf_adatalatches_51_6_anx Y )  ( initialBuf_adatalatches_51_6_al q )  ;
+   - ymerge.A.d[2] ( ymerge_amuxes_52_6 B )  ( initialBuf_adatalatches_52_6_anx Y )  ( initialBuf_adatalatches_52_6_al q )  ;
+   - ymerge.A.d[3] ( ymerge_amuxes_53_6 B )  ( initialBuf_adatalatches_53_6_anx Y )  ( initialBuf_adatalatches_53_6_al q )  ;
+   - ymerge.A.d[4] ( ymerge_amuxes_54_6 B )  ( initialBuf_adatalatches_54_6_anx Y )  ( initialBuf_adatalatches_54_6_al q )  ;
+   - ymerge.A.d[5] ( ymerge_amuxes_55_6 B )  ( initialBuf_adatalatches_55_6_anx Y )  ( initialBuf_adatalatches_55_6_al q )  ;
+   - ymerge.A.d[6] ( ymerge_amuxes_56_6 B )  ( initialBuf_adatalatches_56_6_anx Y )  ( initialBuf_adatalatches_56_6_al q )  ;
+   - ymerge.A.d[7] ( ymerge_amuxes_57_6 B )  ( initialBuf_adatalatches_57_6_anx Y )  ( initialBuf_adatalatches_57_6_al q )  ;
+   - ymerge.A.r ( ymerge_amccA_acelem_acx0 in_51_6 )  ( initialBuf_afcc_aresetnor Y )  ;
+   - ymerge.A.a ( ymerge_amccA_adel_adelay_53_6 Y )  ( ymerge_aoutgate A )  ( initialBuf_afcc_acelem_acx0 in_50_6 )  ;
+   - yzero.X.d[0] ( ymerge_amuxes_50_6 A )  ( yzero_atempt_50_6 Y )  ;
+   - yzero.X.d[1] ( ymerge_amuxes_51_6 A )  ( yzero_atempt_51_6 Y )  ;
+   - yzero.X.d[2] ( ymerge_amuxes_52_6 A )  ( yzero_atempt_52_6 Y )  ;
+   - yzero.X.d[3] ( ymerge_amuxes_53_6 A )  ( yzero_atempt_53_6 Y )  ;
+   - yzero.X.d[4] ( ymerge_amuxes_54_6 A )  ( yzero_atempt_54_6 Y )  ;
+   - yzero.X.d[5] ( ymerge_amuxes_55_6 A )  ( yzero_atempt_55_6 Y )  ;
+   - yzero.X.d[6] ( ymerge_amuxes_56_6 A )  ( yzero_atempt_56_6 Y )  ;
+   - yzero.X.d[7] ( ymerge_amuxes_57_6 A )  ( yzero_atempt_57_6 Y )  ;
+   - yzero.X.r ( ymerge_amccB_acelem_acx0 in_51_6 )  ( yzero_acontrolgate Y )  ;
+   - yzero.X.a ( ymerge_amccB_adel_adelay_53_6 Y )  ( ymerge_aoutgate B )  ( yzero_acontrolgate A )  ;
+   - C.d[0] ( PIN C.d[0] )  ( ymerge_amuxes_50_6 S )  ( ymerge_amuxes_51_6 S ) 
+ ( ymerge_amuxes_52_6 S )  ( ymerge_amuxes_53_6 S )  ( ymerge_amuxes_54_6 S )  ( ymerge_amuxes_55_6 S ) 
+ ( ymerge_amuxes_56_6 S )  ( ymerge_amuxes_57_6 S )  ( ymerge_acbMaker A )  ( ymerge_asplitB B )  ;
+   - C.r ( PIN C.r )  ( ymerge_asplitA A )  ( ymerge_asplitB A )  ;
+   - C.a ( PIN C.a )  ( ymerge_adel_adelay_50_6 A )  ( ymerge_apg_adel_adelay_50_6 A ) 
+ ( ymerge_apg_apulsegen A )  ( ymerge_aoutgateinv Y )  ;
+   - Reset ( PIN Reset )  ( ymerge_amccB_aresetnor A )  ( ymerge_amccA_aresetnor A ) 
+ ( output_acopybuf_afcc_aresetnor A )  ( add_afcc_aresetnor A )  ( initialBuf_adatalatches_50_6_anx B )  ( initialBuf_adatalatches_51_6_anx B ) 
+ ( initialBuf_adatalatches_52_6_anx B )  ( initialBuf_adatalatches_53_6_anx B )  ( initialBuf_adatalatches_54_6_anx B )  ( initialBuf_adatalatches_55_6_anx B ) 
+ ( initialBuf_adatalatches_56_6_anx B )  ( initialBuf_adatalatches_57_6_anx B )  ( initialBuf_afcc_aresetnor A )  ( yzero_acontrolgate B )  ;
+   - R.d[0] ( PIN R.d[0] )  ( output_acopybuf_adatalatches_50_6 Q )  ( add_adatalatchesA_50_6 D )  ;
+   - R.d[1] ( PIN R.d[1] )  ( output_acopybuf_adatalatches_51_6 Q )  ( add_adatalatchesA_51_6 D )  ;
+   - R.d[2] ( PIN R.d[2] )  ( output_acopybuf_adatalatches_52_6 Q )  ( add_adatalatchesA_52_6 D )  ;
+   - R.d[3] ( PIN R.d[3] )  ( output_acopybuf_adatalatches_53_6 Q )  ( add_adatalatchesA_53_6 D )  ;
+   - R.d[4] ( PIN R.d[4] )  ( output_acopybuf_adatalatches_54_6 Q )  ( add_adatalatchesA_54_6 D )  ;
+   - R.d[5] ( PIN R.d[5] )  ( output_acopybuf_adatalatches_55_6 Q )  ( add_adatalatchesA_55_6 D )  ;
+   - R.d[6] ( PIN R.d[6] )  ( output_acopybuf_adatalatches_56_6 Q )  ( add_adatalatchesA_56_6 D )  ;
+   - R.d[7] ( PIN R.d[7] )  ( output_acopybuf_adatalatches_57_6 Q )  ( add_adatalatchesA_57_6 D )  ;
+   - R.r ( PIN R.r )  ( output_acopybuf_afcc_adel_adelay_57_6 Y )  ( add_ainputcelem_acelem_acx0 in_50_6 )  ;
+   - R.a ( PIN R.a )  ( output_aacknowledgecelem_acelem_acx0 in_50_6 )  ;
+   - L.a ( PIN L.a )  ( output_aacknowledgecelem_acelem_acx0 in_51_6 )  ( add_afcc_apg_adel_adelay_50_6 A ) 
+ ( add_afcc_apg_apulsegen A )  ( add_afcc_acinv Y )  ( add_afcc_adel_adelay_50_6 A )  ;
+   - add.R.d[0] ( add_afa_50_6 YS )  ( initialBuf_adatalatches_50_6_al D )  ;
+   - add.R.d[1] ( add_afa_51_6 YS )  ( initialBuf_adatalatches_51_6_al D )  ;
+   - add.R.d[2] ( add_afa_52_6 YS )  ( initialBuf_adatalatches_52_6_al D )  ;
+   - add.R.d[3] ( add_afa_53_6 YS )  ( initialBuf_adatalatches_53_6_al D )  ;
+   - add.R.d[4] ( add_afa_54_6 YS )  ( initialBuf_adatalatches_54_6_al D )  ;
+   - add.R.d[5] ( add_afa_55_6 YS )  ( initialBuf_adatalatches_55_6_al D )  ;
+   - add.R.d[6] ( add_afa_56_6 YS )  ( initialBuf_adatalatches_56_6_al D )  ;
+   - add.R.d[7] ( add_afa_57_6 YS )  ( initialBuf_adatalatches_57_6_al D )  ;
+   - add.R.r ( add_adelay_adelay_57_6 Y )  ( initialBuf_afcc_acelem_acx0 in_51_6 )  ;
+   - add.R.a ( add_afcc_aresetnor B )  ( initialBuf_afcc_apg_adel_adelay_50_6 A )  ( initialBuf_afcc_apg_apulsegen A ) 
+ ( initialBuf_afcc_acinv Y )  ( initialBuf_afcc_adel_adelay_50_6 A )  ;
+   - L.d[0] ( PIN L.d[0] )  ( add_adatalatchesB_50_6 D )  ;
+   - L.d[1] ( PIN L.d[1] )  ( add_adatalatchesB_51_6 D )  ;
+   - L.d[2] ( PIN L.d[2] )  ( add_adatalatchesB_52_6 D )  ;
+   - L.d[3] ( PIN L.d[3] )  ( add_adatalatchesB_53_6 D )  ;
+   - L.d[4] ( PIN L.d[4] )  ( add_adatalatchesB_54_6 D )  ;
+   - L.d[5] ( PIN L.d[5] )  ( add_adatalatchesB_55_6 D )  ;
+   - L.d[6] ( PIN L.d[6] )  ( add_adatalatchesB_56_6 D )  ;
+   - L.d[7] ( PIN L.d[7] )  ( add_adatalatchesB_57_6 D )  ;
+   - L.r ( PIN L.r )  ( add_ainputcelem_acelem_acx0 in_51_6 )  ;
+   - ymerge.pg.pulseout ( ymerge_adatalatches_50_6 CLK )  ( ymerge_adatalatches_51_6 CLK )  ( ymerge_adatalatches_52_6 CLK ) 
+ ( ymerge_adatalatches_53_6 CLK )  ( ymerge_adatalatches_54_6 CLK )  ( ymerge_adatalatches_55_6 CLK )  ( ymerge_adatalatches_56_6 CLK ) 
+ ( ymerge_adatalatches_57_6 CLK )  ( ymerge_apg_ainv1 Y )  ;
+   - ymerge.muxinv[0].Y ( ymerge_adatalatches_50_6 D )  ( ymerge_amuxinv_50_6 Y )  ;
+   - ymerge.muxinv[1].Y ( ymerge_adatalatches_51_6 D )  ( ymerge_amuxinv_51_6 Y )  ;
+   - ymerge.muxinv[2].Y ( ymerge_adatalatches_52_6 D )  ( ymerge_amuxinv_52_6 Y )  ;
+   - ymerge.muxinv[3].Y ( ymerge_adatalatches_53_6 D )  ( ymerge_amuxinv_53_6 Y )  ;
+   - ymerge.muxinv[4].Y ( ymerge_adatalatches_54_6 D )  ( ymerge_amuxinv_54_6 Y )  ;
+   - ymerge.muxinv[5].Y ( ymerge_adatalatches_55_6 D )  ( ymerge_amuxinv_55_6 Y )  ;
+   - ymerge.muxinv[6].Y ( ymerge_adatalatches_56_6 D )  ( ymerge_amuxinv_56_6 Y )  ;
+   - ymerge.muxinv[7].Y ( ymerge_adatalatches_57_6 D )  ( ymerge_amuxinv_57_6 Y )  ;
+   - ymerge.cB.Y ( ymerge_amccB_acelem_acx0 in_52_6 )  ( ymerge_acB Y )  ;
+   - ymerge.mccB.pulseout ( ymerge_amccB_adel_adelay_50_6 A )  ( ymerge_amccB_acinv Y )  ;
+   - ymerge.muxes[0].Y ( ymerge_amuxes_50_6 Y )  ( ymerge_amuxinv_50_6 A )  ;
+   - ymerge.muxes[1].Y ( ymerge_amuxes_51_6 Y )  ( ymerge_amuxinv_51_6 A )  ;
+   - ymerge.muxes[2].Y ( ymerge_amuxes_52_6 Y )  ( ymerge_amuxinv_52_6 A )  ;
+   - ymerge.muxes[3].Y ( ymerge_amuxes_53_6 Y )  ( ymerge_amuxinv_53_6 A )  ;
+   - ymerge.muxes[4].Y ( ymerge_amuxes_54_6 Y )  ( ymerge_amuxinv_54_6 A )  ;
+   - ymerge.muxes[5].Y ( ymerge_amuxes_55_6 Y )  ( ymerge_amuxinv_55_6 A )  ;
+   - ymerge.muxes[6].Y ( ymerge_amuxes_56_6 Y )  ( ymerge_amuxinv_56_6 A )  ;
+   - ymerge.muxes[7].Y ( ymerge_amuxes_57_6 Y )  ( ymerge_amuxinv_57_6 A )  ;
+   - ymerge.splitA.B ( ymerge_acbMaker Y )  ( ymerge_asplitA B )  ;
+   - ymerge.cA.A ( ymerge_asplitA Y )  ( ymerge_acA A )  ;
+   - ymerge.cB.A ( ymerge_acB A )  ( ymerge_asplitB Y )  ;
+   - ymerge.outgate.Y ( ymerge_aoutgateinv A )  ( ymerge_aoutgate Y )  ;
+   - ymerge.cA.Y ( ymerge_amccA_acelem_acx0 in_52_6 )  ( ymerge_acA Y )  ;
+   - ymerge.mccA.pulseout ( ymerge_amccA_adel_adelay_50_6 A )  ( ymerge_amccA_acinv Y )  ;
+   - ymerge.mccB.lainv.A ( ymerge_amccB_alainv A )  ;
+   - ymerge.mccB.lainv.Y ( ymerge_amccB_alainv Y )  ;
+   - ymerge.mccB.cinv.A ( ymerge_amccB_acinv A )  ( ymerge_amccB_acelem_acx0 out )  ;
+   - ymerge.mccB.celem.A ( ymerge_amccB_aresetnor Y )  ( ymerge_amccB_acelem_acx0 in_50_6 )  ;
+   - ymerge.mccB.del.delay[1].A ( ymerge_amccB_adel_adelay_50_6 Y )  ( ymerge_amccB_adel_adelay_51_6 A )  ;
+   - ymerge.mccB.del.delay[2].A ( ymerge_amccB_adel_adelay_51_6 Y )  ( ymerge_amccB_adel_adelay_52_6 A )  ;
+   - ymerge.mccB.del.delay[3].A ( ymerge_amccB_adel_adelay_52_6 Y )  ( ymerge_amccB_adel_adelay_53_6 A )  ;
+   - ymerge.del.delay[1].A ( ymerge_adel_adelay_50_6 Y )  ( ymerge_adel_adelay_51_6 A )  ;
+   - ymerge.del.delay[2].A ( ymerge_adel_adelay_51_6 Y )  ( ymerge_adel_adelay_52_6 A )  ;
+   - ymerge.del.delay[3].A ( ymerge_adel_adelay_52_6 Y )  ( ymerge_adel_adelay_53_6 A )  ;
+   - ymerge.del.delay[4].A ( ymerge_adel_adelay_53_6 Y )  ( ymerge_adel_adelay_54_6 A )  ;
+   - ymerge.del.delay[5].A ( ymerge_adel_adelay_54_6 Y )  ( ymerge_adel_adelay_55_6 A )  ;
+   - ymerge.del.delay[6].A ( ymerge_adel_adelay_55_6 Y )  ( ymerge_adel_adelay_56_6 A )  ;
+   - ymerge.del.delay[7].A ( ymerge_adel_adelay_56_6 Y )  ( ymerge_adel_adelay_57_6 A )  ;
+   - ymerge.pg.del.Y ( ymerge_apg_adel_adelay_53_6 Y )  ( ymerge_apg_ainv2 A )  ;
+   - ymerge.pg.inv2.Y ( ymerge_apg_apulsegen B )  ( ymerge_apg_ainv2 Y )  ;
+   - ymerge.pg.inv1.A ( ymerge_apg_apulsegen Y )  ( ymerge_apg_ainv1 A )  ;
+   - ymerge.pg.del.delay[1].A ( ymerge_apg_adel_adelay_50_6 Y )  ( ymerge_apg_adel_adelay_51_6 A )  ;
+   - ymerge.pg.del.delay[2].A ( ymerge_apg_adel_adelay_51_6 Y )  ( ymerge_apg_adel_adelay_52_6 A )  ;
+   - ymerge.pg.del.delay[3].A ( ymerge_apg_adel_adelay_52_6 Y )  ( ymerge_apg_adel_adelay_53_6 A )  ;
+   - ymerge.mccA.lainv.A ( ymerge_amccA_alainv A )  ;
+   - ymerge.mccA.lainv.Y ( ymerge_amccA_alainv Y )  ;
+   - ymerge.mccA.cinv.A ( ymerge_amccA_acinv A )  ( ymerge_amccA_acelem_acx0 out )  ;
+   - ymerge.mccA.celem.A ( ymerge_amccA_aresetnor Y )  ( ymerge_amccA_acelem_acx0 in_50_6 )  ;
+   - ymerge.mccA.del.delay[1].A ( ymerge_amccA_adel_adelay_50_6 Y )  ( ymerge_amccA_adel_adelay_51_6 A )  ;
+   - ymerge.mccA.del.delay[2].A ( ymerge_amccA_adel_adelay_51_6 Y )  ( ymerge_amccA_adel_adelay_52_6 A )  ;
+   - ymerge.mccA.del.delay[3].A ( ymerge_amccA_adel_adelay_52_6 Y )  ( ymerge_amccA_adel_adelay_53_6 A )  ;
+   - output.acknowledgecelem.Y ( output_aacknowledgecelem_ainv Y )  ( output_acopybuf_afcc_aresetnor B )  ;
+   - output.acknowledgecelem.inv.A ( output_aacknowledgecelem_acelem_acx0 out )  ( output_aacknowledgecelem_ainv A )  ;
+   - output.copybuf.fcc.pulseout ( output_acopybuf_adatalatches_50_6 CLK )  ( output_acopybuf_adatalatches_51_6 CLK )  ( output_acopybuf_adatalatches_52_6 CLK ) 
+ ( output_acopybuf_adatalatches_53_6 CLK )  ( output_acopybuf_adatalatches_54_6 CLK )  ( output_acopybuf_adatalatches_55_6 CLK )  ( output_acopybuf_adatalatches_56_6 CLK ) 
+ ( output_acopybuf_adatalatches_57_6 CLK )  ( output_acopybuf_afcc_apg_ainv1 Y )  ;
+   - output.copybuf.fcc.lainv.A ( output_acopybuf_afcc_alainv A )  ;
+   - output.copybuf.fcc.lainv.Y ( output_acopybuf_afcc_alainv Y )  ;
+   - output.copybuf.fcc.cinv.A ( output_acopybuf_afcc_acinv A )  ( output_acopybuf_afcc_acelem_acx0 out )  ;
+   - output.copybuf.fcc.celem.A ( output_acopybuf_afcc_aresetnor Y )  ( output_acopybuf_afcc_acelem_acx0 in_50_6 )  ;
+   - output.copybuf.fcc.pg.del.Y ( output_acopybuf_afcc_apg_adel_adelay_53_6 Y )  ( output_acopybuf_afcc_apg_ainv2 A )  ;
+   - output.copybuf.fcc.pg.inv2.Y ( output_acopybuf_afcc_apg_apulsegen B )  ( output_acopybuf_afcc_apg_ainv2 Y )  ;
+   - output.copybuf.fcc.pg.inv1.A ( output_acopybuf_afcc_apg_apulsegen Y )  ( output_acopybuf_afcc_apg_ainv1 A )  ;
+   - output.copybuf.fcc.pg.del.delay[1].A ( output_acopybuf_afcc_apg_adel_adelay_50_6 Y )  ( output_acopybuf_afcc_apg_adel_adelay_51_6 A )  ;
+   - output.copybuf.fcc.pg.del.delay[2].A ( output_acopybuf_afcc_apg_adel_adelay_51_6 Y )  ( output_acopybuf_afcc_apg_adel_adelay_52_6 A )  ;
+   - output.copybuf.fcc.pg.del.delay[3].A ( output_acopybuf_afcc_apg_adel_adelay_52_6 Y )  ( output_acopybuf_afcc_apg_adel_adelay_53_6 A )  ;
+   - output.copybuf.fcc.del.delay[1].A ( output_acopybuf_afcc_adel_adelay_50_6 Y )  ( output_acopybuf_afcc_adel_adelay_51_6 A )  ;
+   - output.copybuf.fcc.del.delay[2].A ( output_acopybuf_afcc_adel_adelay_51_6 Y )  ( output_acopybuf_afcc_adel_adelay_52_6 A )  ;
+   - output.copybuf.fcc.del.delay[3].A ( output_acopybuf_afcc_adel_adelay_52_6 Y )  ( output_acopybuf_afcc_adel_adelay_53_6 A )  ;
+   - output.copybuf.fcc.del.delay[4].A ( output_acopybuf_afcc_adel_adelay_53_6 Y )  ( output_acopybuf_afcc_adel_adelay_54_6 A )  ;
+   - output.copybuf.fcc.del.delay[5].A ( output_acopybuf_afcc_adel_adelay_54_6 Y )  ( output_acopybuf_afcc_adel_adelay_55_6 A )  ;
+   - output.copybuf.fcc.del.delay[6].A ( output_acopybuf_afcc_adel_adelay_55_6 Y )  ( output_acopybuf_afcc_adel_adelay_56_6 A )  ;
+   - output.copybuf.fcc.del.delay[7].A ( output_acopybuf_afcc_adel_adelay_56_6 Y )  ( output_acopybuf_afcc_adel_adelay_57_6 A )  ;
+   - add.initialcarry.Y ( add_ainitialcarry Y )  ( add_afa_50_6 C )  ;
+   - add.fcc.pulseout ( add_adatalatchesA_50_6 CLK )  ( add_adatalatchesA_51_6 CLK )  ( add_adatalatchesA_52_6 CLK ) 
+ ( add_adatalatchesA_53_6 CLK )  ( add_adatalatchesA_54_6 CLK )  ( add_adatalatchesA_55_6 CLK )  ( add_adatalatchesA_56_6 CLK ) 
+ ( add_adatalatchesA_57_6 CLK )  ( add_afcc_apg_ainv1 Y )  ( add_adatalatchesB_50_6 CLK )  ( add_adatalatchesB_51_6 CLK ) 
+ ( add_adatalatchesB_52_6 CLK )  ( add_adatalatchesB_53_6 CLK )  ( add_adatalatchesB_54_6 CLK )  ( add_adatalatchesB_55_6 CLK ) 
+ ( add_adatalatchesB_56_6 CLK )  ( add_adatalatchesB_57_6 CLK )  ;
+   - add.fa[0].A ( add_adatalatchesA_50_6 Q )  ( add_afa_50_6 A )  ;
+   - add.fa[1].A ( add_adatalatchesA_51_6 Q )  ( add_afa_51_6 A )  ;
+   - add.fa[2].A ( add_adatalatchesA_52_6 Q )  ( add_afa_52_6 A )  ;
+   - add.fa[3].A ( add_adatalatchesA_53_6 Q )  ( add_afa_53_6 A )  ;
+   - add.fa[4].A ( add_adatalatchesA_54_6 Q )  ( add_afa_54_6 A )  ;
+   - add.fa[5].A ( add_adatalatchesA_55_6 Q )  ( add_afa_55_6 A )  ;
+   - add.fa[6].A ( add_adatalatchesA_56_6 Q )  ( add_afa_56_6 A )  ;
+   - add.fa[7].A ( add_adatalatchesA_57_6 Q )  ( add_afa_57_6 A )  ;
+   - add.fcc.Lr ( add_afcc_acelem_acx0 in_51_6 )  ( add_ainputcelem_ainv Y )  ;
+   - add.fcc.Rr ( add_afcc_adel_adelay_57_6 Y )  ( add_adelay_adelay_50_6 A )  ;
+   - add.fa[0].B ( add_afa_50_6 B )  ( add_adatalatchesB_50_6 Q )  ;
+   - add.fa[1].C ( add_afa_50_6 YC )  ( add_afa_51_6 C )  ;
+   - add.fa[1].B ( add_afa_51_6 B )  ( add_adatalatchesB_51_6 Q )  ;
+   - add.fa[2].C ( add_afa_51_6 YC )  ( add_afa_52_6 C )  ;
+   - add.fa[2].B ( add_afa_52_6 B )  ( add_adatalatchesB_52_6 Q )  ;
+   - add.fa[3].C ( add_afa_52_6 YC )  ( add_afa_53_6 C )  ;
+   - add.fa[3].B ( add_afa_53_6 B )  ( add_adatalatchesB_53_6 Q )  ;
+   - add.fa[4].C ( add_afa_53_6 YC )  ( add_afa_54_6 C )  ;
+   - add.fa[4].B ( add_afa_54_6 B )  ( add_adatalatchesB_54_6 Q )  ;
+   - add.fa[5].C ( add_afa_54_6 YC )  ( add_afa_55_6 C )  ;
+   - add.fa[5].B ( add_afa_55_6 B )  ( add_adatalatchesB_55_6 Q )  ;
+   - add.fa[6].C ( add_afa_55_6 YC )  ( add_afa_56_6 C )  ;
+   - add.fa[6].B ( add_afa_56_6 B )  ( add_adatalatchesB_56_6 Q )  ;
+   - add.fa[7].C ( add_afa_56_6 YC )  ( add_afa_57_6 C )  ;
+   - add.fa[7].B ( add_afa_57_6 B )  ( add_adatalatchesB_57_6 Q )  ;
+   - add.fa[7].YC ( add_afa_57_6 YC )  ;
+   - add.fcc.lainv.A ( add_afcc_alainv A )  ;
+   - add.fcc.lainv.Y ( add_afcc_alainv Y )  ;
+   - add.fcc.cinv.A ( add_afcc_acinv A )  ( add_afcc_acelem_acx0 out )  ;
+   - add.fcc.celem.A ( add_afcc_aresetnor Y )  ( add_afcc_acelem_acx0 in_50_6 )  ;
+   - add.fcc.pg.del.Y ( add_afcc_apg_adel_adelay_53_6 Y )  ( add_afcc_apg_ainv2 A )  ;
+   - add.fcc.pg.inv2.Y ( add_afcc_apg_apulsegen B )  ( add_afcc_apg_ainv2 Y )  ;
+   - add.fcc.pg.inv1.A ( add_afcc_apg_apulsegen Y )  ( add_afcc_apg_ainv1 A )  ;
+   - add.fcc.pg.del.delay[1].A ( add_afcc_apg_adel_adelay_50_6 Y )  ( add_afcc_apg_adel_adelay_51_6 A )  ;
+   - add.fcc.pg.del.delay[2].A ( add_afcc_apg_adel_adelay_51_6 Y )  ( add_afcc_apg_adel_adelay_52_6 A )  ;
+   - add.fcc.pg.del.delay[3].A ( add_afcc_apg_adel_adelay_52_6 Y )  ( add_afcc_apg_adel_adelay_53_6 A )  ;
+   - add.fcc.del.delay[1].A ( add_afcc_adel_adelay_50_6 Y )  ( add_afcc_adel_adelay_51_6 A )  ;
+   - add.fcc.del.delay[2].A ( add_afcc_adel_adelay_51_6 Y )  ( add_afcc_adel_adelay_52_6 A )  ;
+   - add.fcc.del.delay[3].A ( add_afcc_adel_adelay_52_6 Y )  ( add_afcc_adel_adelay_53_6 A )  ;
+   - add.fcc.del.delay[4].A ( add_afcc_adel_adelay_53_6 Y )  ( add_afcc_adel_adelay_54_6 A )  ;
+   - add.fcc.del.delay[5].A ( add_afcc_adel_adelay_54_6 Y )  ( add_afcc_adel_adelay_55_6 A )  ;
+   - add.fcc.del.delay[6].A ( add_afcc_adel_adelay_55_6 Y )  ( add_afcc_adel_adelay_56_6 A )  ;
+   - add.fcc.del.delay[7].A ( add_afcc_adel_adelay_56_6 Y )  ( add_afcc_adel_adelay_57_6 A )  ;
+   - add.inputcelem.inv.A ( add_ainputcelem_acelem_acx0 out )  ( add_ainputcelem_ainv A )  ;
+   - add.delay.delay[1].A ( add_adelay_adelay_50_6 Y )  ( add_adelay_adelay_51_6 A )  ;
+   - add.delay.delay[2].A ( add_adelay_adelay_51_6 Y )  ( add_adelay_adelay_52_6 A )  ;
+   - add.delay.delay[3].A ( add_adelay_adelay_52_6 Y )  ( add_adelay_adelay_53_6 A )  ;
+   - add.delay.delay[4].A ( add_adelay_adelay_53_6 Y )  ( add_adelay_adelay_54_6 A )  ;
+   - add.delay.delay[5].A ( add_adelay_adelay_54_6 Y )  ( add_adelay_adelay_55_6 A )  ;
+   - add.delay.delay[6].A ( add_adelay_adelay_55_6 Y )  ( add_adelay_adelay_56_6 A )  ;
+   - add.delay.delay[7].A ( add_adelay_adelay_56_6 Y )  ( add_adelay_adelay_57_6 A )  ;
+   - initialBuf.fcc.pulseout ( initialBuf_adatalatches_50_6_al CLK )  ( initialBuf_adatalatches_51_6_al CLK )  ( initialBuf_adatalatches_52_6_al CLK ) 
+ ( initialBuf_adatalatches_53_6_al CLK )  ( initialBuf_adatalatches_54_6_al CLK )  ( initialBuf_adatalatches_55_6_al CLK )  ( initialBuf_adatalatches_56_6_al CLK ) 
+ ( initialBuf_adatalatches_57_6_al CLK )  ( initialBuf_afcc_apg_ainv1 Y )  ;
+   - initialBuf.datalatches[0]._q ( initialBuf_adatalatches_50_6_anx A )  ( initialBuf_adatalatches_50_6_al __q )  ;
+   - initialBuf.datalatches[1]._q ( initialBuf_adatalatches_51_6_anx A )  ( initialBuf_adatalatches_51_6_al __q )  ;
+   - initialBuf.datalatches[2]._q ( initialBuf_adatalatches_52_6_anx A )  ( initialBuf_adatalatches_52_6_al __q )  ;
+   - initialBuf.datalatches[3]._q ( initialBuf_adatalatches_53_6_anx A )  ( initialBuf_adatalatches_53_6_al __q )  ;
+   - initialBuf.datalatches[4]._q ( initialBuf_adatalatches_54_6_anx A )  ( initialBuf_adatalatches_54_6_al __q )  ;
+   - initialBuf.datalatches[5]._q ( initialBuf_adatalatches_55_6_anx A )  ( initialBuf_adatalatches_55_6_al __q )  ;
+   - initialBuf.datalatches[6]._q ( initialBuf_adatalatches_56_6_anx A )  ( initialBuf_adatalatches_56_6_al __q )  ;
+   - initialBuf.datalatches[7]._q ( initialBuf_adatalatches_57_6_anx A )  ( initialBuf_adatalatches_57_6_al __q )  ;
+   - initialBuf.fcc.cinv.A ( initialBuf_afcc_acinv A )  ( initialBuf_afcc_acelem_acx0 out )  ;
+   - initialBuf.fcc.del.Y ( initialBuf_afcc_adel_adelay_57_6 Y )  ( initialBuf_afcc_aresetnor B )  ;
+   - initialBuf.fcc.pg.del.Y ( initialBuf_afcc_apg_adel_adelay_53_6 Y )  ( initialBuf_afcc_apg_ainv2 A )  ;
+   - initialBuf.fcc.pg.inv2.Y ( initialBuf_afcc_apg_apulsegen B )  ( initialBuf_afcc_apg_ainv2 Y )  ;
+   - initialBuf.fcc.pg.inv1.A ( initialBuf_afcc_apg_apulsegen Y )  ( initialBuf_afcc_apg_ainv1 A )  ;
+   - initialBuf.fcc.pg.del.delay[1].A ( initialBuf_afcc_apg_adel_adelay_50_6 Y )  ( initialBuf_afcc_apg_adel_adelay_51_6 A )  ;
+   - initialBuf.fcc.pg.del.delay[2].A ( initialBuf_afcc_apg_adel_adelay_51_6 Y )  ( initialBuf_afcc_apg_adel_adelay_52_6 A )  ;
+   - initialBuf.fcc.pg.del.delay[3].A ( initialBuf_afcc_apg_adel_adelay_52_6 Y )  ( initialBuf_afcc_apg_adel_adelay_53_6 A )  ;
+   - initialBuf.fcc.del.delay[1].A ( initialBuf_afcc_adel_adelay_50_6 Y )  ( initialBuf_afcc_adel_adelay_51_6 A )  ;
+   - initialBuf.fcc.del.delay[2].A ( initialBuf_afcc_adel_adelay_51_6 Y )  ( initialBuf_afcc_adel_adelay_52_6 A )  ;
+   - initialBuf.fcc.del.delay[3].A ( initialBuf_afcc_adel_adelay_52_6 Y )  ( initialBuf_afcc_adel_adelay_53_6 A )  ;
+   - initialBuf.fcc.del.delay[4].A ( initialBuf_afcc_adel_adelay_53_6 Y )  ( initialBuf_afcc_adel_adelay_54_6 A )  ;
+   - initialBuf.fcc.del.delay[5].A ( initialBuf_afcc_adel_adelay_54_6 Y )  ( initialBuf_afcc_adel_adelay_55_6 A )  ;
+   - initialBuf.fcc.del.delay[6].A ( initialBuf_afcc_adel_adelay_55_6 Y )  ( initialBuf_afcc_adel_adelay_56_6 A )  ;
+   - initialBuf.fcc.del.delay[7].A ( initialBuf_afcc_adel_adelay_56_6 Y )  ( initialBuf_afcc_adel_adelay_57_6 A )  ;
+END NETS
+
+
+END DESIGN
+

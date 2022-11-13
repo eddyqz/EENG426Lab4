@@ -1,0 +1,330 @@
+bbox 0 0 96 100
+rect _clk polysilicon 89 37 94 38
+rect #10 ndiffusion 84 21 85 24
+rect _q pdiffusion 85 63 86 66
+rect #10 ndiffusion 81 21 84 24
+rect _clk polysilicon 78 30 80 38
+rect _clk polysilicon 93 38 94 41
+rect _clk polysilicon 89 40 90 41
+rect _clk polysilicon 89 41 94 42
+rect _q pdiffusion 82 63 85 66
+rect #10 ndiffusion 80 20 85 21 right
+rect #10 ndiffusion 80 21 81 24 right
+rect #10 ndiffusion 80 24 85 30 right
+rect _q ndiffusion 77 26 78 29 left
+rect _q ndiffusion 73 29 78 30 left
+rect _clk polysilicon 90 38 93 41
+rect _q pdiffusion 80 47 86 63 right
+rect _q pdiffusion 80 63 82 66 right
+rect _q pdiffusion 80 66 86 67 right
+rect #7 pdiffusion 77 63 78 66 left
+rect _clk ntransistor 78 20 80 30
+rect _q ndiffusion 74 26 77 29
+rect _clk polysilicon 78 38 90 40
+rect _clk polysilicon 78 40 80 47
+rect _clk ptransistor 78 47 80 67
+rect #7 pdiffusion 74 63 77 66
+rect _clk polysilicon 78 67 80 69
+rect _q ndiffusion 73 20 78 26 left
+rect _q ndiffusion 73 26 74 29
+rect #10 ndiffusion 60 28 61 31
+rect #7 pdiffusion 73 47 78 63 left
+rect #7 pdiffusion 73 63 74 66
+rect #7 pdiffusion 73 66 78 67 left
+rect Vdd pdiffusion 60 53 61 56
+rect #10 ndiffusion 57 28 60 31
+rect Vdd pdiffusion 57 53 60 56
+rect #10 ndiffusion 56 20 61 28 right
+rect #10 ndiffusion 56 28 57 31 right
+rect #10 ndiffusion 56 31 61 32 right
+rect GND ndiffusion 53 21 54 24 left
+rect Vdd pdiffusion 56 47 61 53 right
+rect Vdd pdiffusion 56 53 57 56 right
+rect Vdd pdiffusion 56 56 61 57 right
+rect q ntransistor 54 20 56 32
+rect GND ndiffusion 50 21 53 24
+rect q polysilicon 54 32 56 47
+rect q ptransistor 54 47 56 57
+rect q polysilicon 54 57 56 59
+rect q polysilicon 59 8 60 11
+rect _clk polysilicon 78 18 80 20
+rect GND ndiffusion 49 20 54 21 center
+rect GND ndiffusion 49 21 50 24 right
+rect GND ndiffusion 49 24 54 32 center
+rect _clk ndiffusion 46 28 47 31 left
+rect # pdiffusion 49 47 54 57
+rect _q pdiffusion 46 48 47 51 left
+rect q polysilicon 56 8 59 11
+rect CLK ntransistor 47 20 49 32
+rect _clk ndiffusion 43 28 46 31
+rect CLK polysilicon 47 32 49 47
+rect CLK ptransistor 47 47 49 57
+rect _q pdiffusion 43 48 46 51
+rect CLK polysilicon 47 57 49 59
+rect _clk pdiffusion 29 48 30 51
+rect q polysilicon 54 7 60 8
+rect q polysilicon 54 8 56 11
+rect q polysilicon 54 11 60 12
+rect q polysilicon 54 12 56 20
+rect CLK polysilicon 47 14 49 17
+rect _clk ndiffusion 42 20 47 28 left
+rect _q ndiffusion 29 24 30 27
+rect _clk ndiffusion 42 28 43 31
+rect _clk ndiffusion 42 31 47 32 left
+rect _q pdiffusion 42 47 47 48 left
+rect _q pdiffusion 42 48 43 51
+rect _q pdiffusion 42 51 47 57 left
+rect _clk pdiffusion 26 48 29 51
+rect CLK polysilicon 44 14 47 17
+rect CLK polysilicon 47 18 49 20
+rect _q ndiffusion 26 24 29 27
+rect _clk pdiffusion 25 47 30 48 right
+rect _clk pdiffusion 25 48 26 51 right
+rect _clk pdiffusion 25 51 30 62 right
+rect Vdd pdiffusion 22 56 23 59 left
+rect CLK polysilicon 23 62 25 64
+rect CLK polysilicon 43 13 49 14
+rect CLK polysilicon 43 14 44 17
+rect CLK polysilicon 43 17 49 18
+rect CLK polysilicon 27 14 28 17
+rect _q ndiffusion 25 20 30 24 right
+rect _q ndiffusion 25 24 26 27 right
+rect _q ndiffusion 25 27 30 30 right
+rect D polysilicon 16 39 18 47
+rect CLK ptransistor 23 47 25 62
+rect Vdd pdiffusion 19 56 22 59
+rect CLK polysilicon 24 14 27 17
+rect CLK polysilicon 23 18 25 20
+rect CLK ntransistor 23 20 25 30
+rect CLK polysilicon 23 30 25 47
+rect Vdd pdiffusion 18 47 23 56 center
+rect Vdd pdiffusion 18 56 19 59 right
+rect Vdd pdiffusion 18 59 23 62 center
+rect Vdd pdiffusion 18 62 22 67 right
+rect #7 pdiffusion 15 63 16 66 left
+rect CLK polysilicon 23 13 28 14
+rect CLK polysilicon 23 14 24 17
+rect CLK polysilicon 23 17 28 18
+rect # ndiffusion 18 20 23 30
+rect GND ndiffusion 15 21 16 24 left
+rect D ptransistor 16 47 18 67
+rect #7 pdiffusion 12 63 15 66
+rect D polysilicon 16 67 18 69
+rect D polysilicon 16 18 18 20
+rect D ntransistor 16 20 18 30
+rect GND ndiffusion 12 21 15 24
+rect D polysilicon 16 30 18 37
+rect D polysilicon 7 37 18 39
+rect D polysilicon 7 39 8 40
+rect #7 pdiffusion 11 47 16 63 left
+rect #7 pdiffusion 11 63 12 66
+rect #7 pdiffusion 11 66 16 67 left
+rect GND ndiffusion 11 20 16 21 left
+rect GND ndiffusion 11 21 12 24
+rect GND ndiffusion 11 24 16 30 left
+rect D polysilicon 4 37 7 40
+rect D polysilicon 3 36 8 37
+rect D polysilicon 3 37 4 40
+rect D polysilicon 3 40 8 41
+rect _clk pc 90 38 93 41
+rect #7 pdc 74 63 77 66
+rect _q pdc 82 63 85 66
+rect #10 ndc 57 28 60 31
+rect Vdd pdc 57 53 60 56
+rect #10 ndc 81 21 84 24
+rect _q ndc 74 26 77 29
+rect _clk ndc 43 28 46 31
+rect _q pdc 43 48 46 51
+rect GND ndc 50 21 53 24
+rect CLK pc 44 14 47 17
+rect _q ndc 26 24 29 27
+rect _clk pdc 26 48 29 51
+rect q pc 56 8 59 11
+rect Vdd pdc 19 56 22 59
+rect CLK pc 24 14 27 17
+rect #7 pdc 12 63 15 66
+rect GND ndc 12 21 15 24
+rect D pc 4 37 7 40
+outrect _q m1 84 83 85 86
+outrect _q m1 81 83 84 86
+rect _clk m1 93 38 94 41
+rect _clk m1 93 43 94 46
+outrect _q m1 68 29 77 30
+rect #7 m1 77 63 78 66
+outrect _q m1 80 82 85 83
+outrect _q m1 80 83 81 86
+outrect _q m1 80 86 85 87
+rect _clk m1 90 38 93 41
+rect _clk m1 90 43 93 46
+rect #7 m1 74 63 77 66
+rect #7 m1 74 67 77 76
+rect _clk m1 89 37 94 38
+rect _clk m1 89 38 90 41
+rect _clk m1 89 41 94 43
+rect _clk m1 89 43 90 46
+rect _clk m1 89 46 94 47
+outrect _q m1 85 63 86 66
+rect #10 m1 60 28 61 31
+rect Vdd m1 60 53 61 56
+rect #7 m1 73 62 78 63
+rect #7 m1 73 63 74 66
+rect #7 m1 73 66 78 67
+outrect _q m1 82 63 85 66
+outrect _q m1 82 67 85 82
+rect #10 m1 57 28 60 31
+rect Vdd m1 57 53 60 56
+rect Vdd m1 57 57 60 70
+outrect _q m1 81 62 86 63
+outrect _q m1 81 63 82 66
+outrect _q m1 81 66 86 67
+rect #10 m1 56 28 57 31
+rect #10 m1 56 31 61 32
+rect Vdd m1 56 52 61 53
+rect Vdd m1 56 53 57 56
+rect Vdd m1 56 56 61 57
+outrect _q m1 74 26 77 29
+rect GND m1 50 24 53 25
+rect _clk m1 46 28 47 31
+rect _clk m1 46 33 47 36
+rect #10 m1 81 24 84 25
+outrect _q m1 72 26 74 29
+rect _clk m1 43 28 46 31
+rect _clk m1 43 33 46 36
+outrect _q m1 46 48 47 51
+rect Vdd m1 53 69 54 70
+rect Vdd m1 53 70 60 72
+outrect _q m1 69 26 72 29
+rect _clk m1 42 28 43 31
+rect _clk m1 42 31 47 33
+rect _clk m1 42 33 43 36
+rect _clk m1 42 36 47 37
+outrect _q m1 42 47 47 48
+outrect _q m1 43 48 46 51
+rect Vdd m1 50 69 53 72
+rect #10 m1 81 18 84 21
+rect #10 m1 81 21 84 24
+outrect _q m1 68 25 77 26
+outrect _q m1 68 26 69 29
+outrect _q m1 34 24 38 27
+rect #10 m1 56 27 61 28
+outrect _q m1 35 48 43 51
+rect Vdd m1 49 68 54 69
+rect Vdd m1 49 69 50 70
+outrect _q m1 31 24 34 27
+outrect _q m1 35 28 38 48
+inrect q m1 56 11 59 12
+rect #10 m1 57 15 84 18
+rect #10 m1 57 18 60 27
+rect GND m1 50 21 53 24
+outrect _q m1 29 24 31 27
+rect _clk m1 42 27 47 28
+rect _clk m1 29 43 30 46
+rect _clk m1 29 48 30 51
+outrect _q m1 42 51 47 52
+inrect CLK m1 44 14 47 17
+outrect _q m1 26 24 29 27
+rect _clk m1 26 43 29 46
+rect _clk m1 26 48 29 51
+inrect q m1 56 7 59 8
+inrect q m1 56 8 59 11
+rect GND m1 50 10 53 21
+inrect CLK m1 44 13 47 14
+inrect CLK m1 27 14 44 17
+inrect CLK m1 44 17 47 18
+outrect _q m1 25 23 35 24
+outrect _q m1 25 24 26 27
+outrect _q m1 25 27 38 28
+rect _clk m1 25 42 30 43
+rect _clk m1 25 43 26 46
+rect _clk m1 25 46 30 48
+rect _clk m1 25 48 26 51
+rect _clk m1 25 51 30 52
+inrect CLK m1 24 14 27 17
+rect GND m1 16 6 17 7
+rect GND m1 16 7 53 9
+inrect CLK m1 23 13 28 14
+inrect CLK m1 23 14 24 17
+inrect CLK m1 23 17 28 18
+rect GND m1 13 6 16 9
+rect GND m1 15 21 16 24
+rect Vdd m1 19 55 22 56
+rect Vdd m1 19 56 22 59
+rect Vdd m1 19 59 22 70
+rect #7 m1 15 63 16 66
+rect Vdd m1 19 70 50 72
+rect Vdd m1 19 72 60 73
+rect GND m1 12 5 17 6
+rect GND m1 12 6 13 9
+rect GND m1 12 9 53 10
+rect GND m1 12 10 15 20
+rect GND m1 12 21 15 24
+rect #7 m1 12 63 15 66
+rect #7 m1 12 67 15 76
+rect #7 m1 12 76 77 79
+rect GND m1 11 20 16 21
+rect GND m1 11 21 12 24
+rect GND m1 11 24 16 25
+inrect D m1 7 37 8 40
+rect #7 m1 11 62 16 63
+rect #7 m1 11 63 12 66
+rect #7 m1 11 66 16 67
+inrect D m1 4 37 7 40
+inrect D m1 3 36 8 37
+inrect D m1 3 37 4 40
+inrect D m1 3 40 8 41
+rect _clk mcon 90 43 93 46
+rect _q mcon 81 83 84 86
+rect _q mcon 69 26 72 29
+rect _clk mcon 43 33 46 36
+rect Vdd mcon 50 69 53 72
+rect _q mcon 31 24 34 27
+rect _clk mcon 26 43 29 46
+rect GND mcon 13 6 16 9
+outrect _q m2 84 83 85 86
+outrect _q m2 81 83 84 86
+outrect _q m2 80 86 85 87
+rect _clk m2 93 43 94 46
+rect Vdd m2 53 69 54 72
+outrect _q m2 69 83 81 86
+rect _clk m2 90 43 93 46
+rect _clk m2 90 47 93 94
+outrect _q m2 80 82 85 83
+rect Vdd m2 50 69 53 72
+rect _clk m2 89 42 94 43
+rect _clk m2 89 43 90 46
+rect _clk m2 89 46 94 47
+outrect _q m2 72 26 73 29
+rect _clk m2 42 36 47 37
+rect Vdd m2 49 66 54 69
+rect Vdd m2 49 69 50 72
+rect Vdd m2 49 72 54 73
+outrect _q m2 69 5 72 25
+outrect _q m2 69 26 72 29
+outrect _q m2 69 30 72 83
+outrect _q m2 68 25 73 26
+outrect _q m2 68 26 69 29
+outrect _q m2 68 29 73 30
+rect _clk m2 32 36 35 94
+rect _clk m2 46 33 47 36
+rect _clk m2 43 33 46 36
+outrect _q m2 34 24 35 27
+rect _clk m2 42 32 47 33
+rect _clk m2 26 33 43 36
+rect _clk m2 26 36 29 42
+outrect _q m2 31 2 72 5
+outrect _q m2 31 5 34 23
+outrect _q m2 31 24 34 27
+rect _clk m2 29 43 30 46
+rect _clk m2 32 94 93 97
+outrect _q m2 30 23 35 24
+outrect _q m2 30 24 31 27
+outrect _q m2 30 27 35 28
+rect _clk m2 26 43 29 46
+rect GND m2 16 6 17 9
+rect _clk m2 25 42 30 43
+rect _clk m2 25 43 26 46
+rect _clk m2 25 46 30 47
+rect GND m2 13 6 16 9
+rect GND m2 12 5 17 6
+rect GND m2 12 6 13 9
+rect GND m2 12 9 17 10

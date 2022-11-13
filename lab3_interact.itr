@@ -1,0 +1,26 @@
+act:read "lab3b.act"   
+act:merge "cells.act"  
+act:expand             
+act:top "accum" 
+
+ckt:cell-map      
+ckt:map           
+
+define density 0.5
+
+define area (* 1.05 (/ 1 density))
+
+load-scm "phydb.scm"               
+phydb:create area 1.0 "output.lef" 
+
+act:layout:rect          
+
+dali:init 3              
+dali:place-design density 
+dali:place-io "met1"      
+dali:export-phydb         
+dali:close                
+
+phydb:write-def "output.def" 
+phydb:write-aux-rect "output" 
+phydb:update-lef "output"     

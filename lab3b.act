@@ -1,0 +1,19 @@
+import "lab3acells.act";
+
+defproc accum (std::channel::bd<8> L; std::channel::bd<1> C; std::channel::bd<8> R){
+    source yzero;
+    MERGEX2 ymerge; 
+    tok_buf initialBuf;
+    FUNCTIONADDX2 add;
+    COPYX2 output; 
+
+    yzero.X = ymerge.B;
+    initialBuf.R = ymerge.A;
+    ymerge.C = C;
+    ymerge.R = output.L;
+    output.A = R;
+    output.B = add.A;
+    add.B = L;
+    add.R = initialBuf.L;
+
+}
