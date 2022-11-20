@@ -1,0 +1,40 @@
+act:read "test_accum.act"   
+act:merge "cells.act"  
+act:expand             
+act:top "test<>" 
+
+ckt:cell-map      
+ckt:map 
+
+define density 0.4
+
+define area (* 1.05 (/ 1 density))
+
+load-scm "phydb.scm"               
+phydb:create area 1.0 "output.lef" 
+
+act:layout:rect          
+
+dali:init 5        
+dali:place-design density 
+dali:place-io "met1"      
+dali:export-phydb         
+dali:close                
+
+pwroute:init 0            
+pwroute:set_reinforcement 0  
+pwroute:run             
+pwroute:export-phydb     
+pwroute:close          
+
+sproute:init 0          
+sproute:run         
+sproute:close      
+
+phydb:write-guide "output.guide" 
+
+
+# same commands as earlier
+phydb:write-def "output.def"  
+phydb:write-aux-rect "output" 
+phydb:update-lef "output" 

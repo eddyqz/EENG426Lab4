@@ -1,0 +1,3 @@
+import "lab3b.act";
+
+accum test;
