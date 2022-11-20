@@ -1,0 +1,1285 @@
+[2022-11-20 01:28:57.621685] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:57.623015] [0x00007fda8243b880] [info] Load information from PhyDB
+[2022-11-20 01:28:57.623027] [0x00007fda8243b880] [trace]   DATABASE MICRONS 1000
+[2022-11-20 01:28:57.623036] [0x00007fda8243b880] [trace]   MANUFACTURINGGRID 0.005
+[2022-11-20 01:28:57.623051] [0x00007fda8243b880] [info]   placement grid not set in PhyDB
+[2022-11-20 01:28:57.623075] [0x00007fda8243b880] [info]   checking sites
+[2022-11-20 01:28:57.623085] [0x00007fda8243b880] [info]     width : 0.6um
+[2022-11-20 01:28:57.623131] [0x00007fda8243b880] [info]     height: 0.3um
+[2022-11-20 01:28:57.625640] [0x00007fda8243b880] [debug] NOTE: uy of well rect for _0_0std_0_0cells_0_0FAX1 is not an integer multiple of grid value y
+  uy: 11.025, grid value y: 0.3
+[2022-11-20 01:28:57.625684] [0x00007fda8243b880] [debug] NOTE: ly of well rect for welltap_svt is not an integer multiple of grid value y
+  ly: 0.825, grid value y: 0.3
+[2022-11-20 01:28:57.625706] [0x00007fda8243b880] [info] (wall time: 0.004091s, cpu time: 0.002955)
+[2022-11-20 01:28:57.625732] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:57.625785] [0x00007fda8243b880] [info] Circuit brief summary:
+[2022-11-20 01:28:57.625838] [0x00007fda8243b880] [info]   movable blocks: 1000
+[2022-11-20 01:28:57.625865] [0x00007fda8243b880] [info]   fixed blocks:   0
+[2022-11-20 01:28:57.625891] [0x00007fda8243b880] [info]   blocks:         1000
+[2022-11-20 01:28:57.625901] [0x00007fda8243b880] [info]   iopins:         0
+[2022-11-20 01:28:57.625908] [0x00007fda8243b880] [info]   nets:           4001
+[2022-11-20 01:28:57.625912] [0x00007fda8243b880] [info]   grid size x/y:  0.6/0.3um
+[2022-11-20 01:28:57.625973] [0x00007fda8243b880] [info]   total movable blk area: 918000
+[2022-11-20 01:28:57.626002] [0x00007fda8243b880] [info]   total white space     : 2411208
+[2022-11-20 01:28:57.626026] [0x00007fda8243b880] [info]   total block area      : 918000
+[2022-11-20 01:28:57.626047] [0x00007fda8243b880] [info]   total space: 2411208
+[2022-11-20 01:28:57.626060] [0x00007fda8243b880] [info]     left:   10
+[2022-11-20 01:28:57.626065] [0x00007fda8243b880] [info]     right:  1108
+[2022-11-20 01:28:57.626069] [0x00007fda8243b880] [info]     bottom: 18
+[2022-11-20 01:28:57.626072] [0x00007fda8243b880] [info]     top:    2214
+[2022-11-20 01:28:57.626076] [0x00007fda8243b880] [info]   average movable width/height: 18/51um
+[2022-11-20 01:28:57.626083] [0x00007fda8243b880] [info]   white space utility: 0.380722
+[2022-11-20 01:28:57.626104] [0x00007fda8243b880] [info]   current weighted HPWL: 11950.5um
+[2022-11-20 01:28:57.626223] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:57.626232] [0x00007fda8243b880] [info] Start global placement
+[2022-11-20 01:28:57.626237] [0x00007fda8243b880] [info]   target density: 0.4
+[2022-11-20 01:28:57.626256] [0x00007fda8243b880] [info]   Block location initialization:
+    HPWL before, 11950.5
+[2022-11-20 01:28:57.626331] [0x00007fda8243b880] [debug]     uniform initialization complete
+[2022-11-20 01:28:57.626342] [0x00007fda8243b880] [info]     HPWL after, 436462
+[2022-11-20 01:28:57.626468] [0x00007fda8243b880] [debug] (wall time: 0.000209s, cpu time: 0.000209)
+[2022-11-20 01:28:57.626579] [0x00007fda8243b880] [debug]   Global placement bin width, height: 262  262
+[2022-11-20 01:28:57.626666] [0x00007fda8243b880] [trace] alpha: 0
+[2022-11-20 01:28:57.626694] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.626708] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.626722] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.627730] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [12419.8, 5961.52, 4485.19, 3971.07, 3818.1, 3767.59, 3752.34, 3744.56, 3739.28, 3735.23]
+[2022-11-20 01:28:57.627776] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.631887] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3700.95, 3670.22, 3660.87, 3645.03, 3637.51, 3624.19, 3617.73, 3605.84, 3600.06, 3589.12, 3583.8, 3573.57, 3568.6, 3558.93, 3554.23, 3545.03, 3540.55, 3531.76, 3527.45, 3519.03, 3514.86, 3506.75, 3502.71, 3494.88, 3490.95, 3483.38, 3479.55, 3472.21, 3468.47, 3461.34, 3457.69, 3450.75, 3447.18, 3440.42, 3436.93, 3430.34, 3426.92, 3420.49, 3417.14, 3410.85, 3407.56, 3401.42, 3398.19, 3392.17, 3389, 3383.11, 3379.99, 3374.22, 3371.15, 3365.5, 3362.47, 3356.93, 3353.95, 3348.51, 3345.57, 3340.23]
+[2022-11-20 01:28:57.631958] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.633389] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3338.36, 3326.9, 3324.85, 3317.46, 3315.29, 3308.4, 3306.25, 3299.51, 3297.37, 3290.79, 3288.66, 3282.22, 3280.1, 3273.79, 3271.69, 3265.52, 3263.42, 3257.37]
+[2022-11-20 01:28:57.633431] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.638879] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3255.49, 3247.65, 3245.75, 3238.16, 3236.26, 3228.85, 3226.95, 3219.7, 3217.8, 3210.7, 3208.81, 3201.85, 3199.96, 3193.13, 3191.25, 3184.55, 3182.68, 3176.1, 3174.23, 3167.77, 3165.91, 3159.56, 3157.71, 3151.47, 3149.63, 3143.48, 3141.65, 3135.6, 3133.78, 3127.83]
+[2022-11-20 01:28:57.638979] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.639641] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.639668] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3609.07, 3587.04, 3672.24, 3646.97, 3694.52]
+[2022-11-20 01:28:57.639687] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.643416] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3525.73, 3511.78, 3450.68, 3438.49, 3397.03, 3388.11, 3357.44, 3350.19, 3325.86, 3319.81, 3299.68, 3294.49, 3277.31, 3272.77, 3257.78, 3253.74, 3240.41, 3236.77, 3224.75, 3221.43, 3210.45, 3207.39, 3197.27, 3194.42, 3185.03, 3182.35, 3173.57, 3171.03, 3162.76, 3160.35, 3152.53, 3150.22, 3142.78, 3140.57, 3133.47, 3131.34, 3124.54, 3122.48, 3115.94, 3113.94, 3107.65, 3105.71, 3099.64, 3097.73, 3091.86, 3090, 3084.31]
+[2022-11-20 01:28:57.643501] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.644100] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.644146] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3744.48, 3669.06, 3755.94, 3711.98, 3757.8]
+[2022-11-20 01:28:57.644165] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.644226] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 6, [3735.23, 3340.23, 3257.37, 3127.83, 3694.52, 3084.31, 3757.8]
+[2022-11-20 01:28:57.644258] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.644279] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.646592] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [12437.6, 8562.63, 8176.47, 8088.54, 8050.72, 8024.78, 8001.97, 7979.61, 7959.08, 7939.27, 7920.8, 7903.15, 7886.54, 7870.73, 7855.79, 7841.56, 7828.09, 7815.24, 7803.06, 7791.4, 7780.35, 7769.74, 7759.67, 7749.98, 7740.77]
+[2022-11-20 01:28:57.646699] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.649466] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7733.19, 7711.01, 7690.67, 7669.83, 7654.25, 7635.58, 7621.52, 7604.64, 7591.4, 7575.94, 7563.26, 7548.94, 7536.7, 7523.33, 7511.45, 7498.86, 7487.29, 7475.36, 7464.09, 7452.72, 7441.71, 7430.83, 7420.06, 7409.61, 7399.07, 7389.01, 7378.68, 7368.97, 7358.84, 7349.43, 7339.5, 7330.38, 7320.62, 7311.76, 7302.17, 7293.56]
+[2022-11-20 01:28:57.649533] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.650057] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.650630] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8067.7, 8038.77, 8087.62, 8049.35, 8084.49]
+[2022-11-20 01:28:57.650702] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.655021] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7894.33, 7846.27, 7768.39, 7751.5, 7688.75, 7675.38, 7624.14, 7612.94, 7569.36, 7559.43, 7521.34, 7512.33, 7478.32, 7470.05, 7439.19, 7431.52, 7403.18, 7396.02, 7369.72, 7362.99, 7338.39, 7332.03, 7308.86, 7302.82, 7280.88, 7275.13, 7254.25, 7248.75, 7228.8, 7223.52, 7204.39, 7199.32, 7180.92, 7176.02, 7158.27, 7153.54, 7136.38, 7131.8, 7115.18, 7110.74, 7094.6, 7090.28, 7074.6, 7070.39, 7055.12, 7051.01, 7036.13, 7032.11, 7017.58, 7013.66, 6999.46, 6995.62, 6981.72, 6977.96, 6964.35]
+[2022-11-20 01:28:57.655122] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.655507] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8071.54, 8067.96, 8079.73]
+[2022-11-20 01:28:57.655541] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.655550] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7740.77, 7293.56, 8084.49, 6964.35, 8079.73]
+[2022-11-20 01:28:57.660244] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.660898] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.660972] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 4.23e-05s)
+[2022-11-20 01:28:57.661023] [0x00007fda8243b880] [debug] (UpdateClusterList time: 4.2e-06s)
+[2022-11-20 01:28:57.661041] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 6.8e-06s)
+[2022-11-20 01:28:57.661053] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.000396s)
+[2022-11-20 01:28:57.661137] [0x00007fda8243b880] [info]   iter-0  : 1.1838e+04  3.0242e+04
+[2022-11-20 01:28:57.661154] [0x00007fda8243b880] [debug] 0-th iteration completed
+[2022-11-20 01:28:57.661234] [0x00007fda8243b880] [trace] alpha: 0.005
+[2022-11-20 01:28:57.661255] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.661268] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.661283] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.663707] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3547.67, 3508.87, 3469.79, 3454.9, 3419.99, 3405.52, 3381.6, 3367.11, 3349.67, 3336.03, 3322.94, 3310.39, 3300.28, 3288.88, 3280.89, 3270.6, 3264.17, 3254.92, 3249.66, 3241.37, 3237.06, 3229.58, 3226.03, 3219.27, 3216.33, 3210.24, 3207.81, 3202.36]
+[2022-11-20 01:28:57.663771] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.664343] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.664370] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3474.1, 3444.57, 3464.44, 3451.84, 3456.47]
+[2022-11-20 01:28:57.664416] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.666222] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3327.24, 3305.19, 3262.04, 3255.01, 3224.36, 3218.84, 3196.82, 3192.36, 3175.72, 3172.08, 3159.17, 3156.25, 3146.04, 3143.66, 3135.51, 3133.58, 3127.03, 3125.42, 3120.13]
+[2022-11-20 01:28:57.666345] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.667115] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.667172] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3709.17, 3654.95, 3713.86, 3700.18, 3717.43]
+[2022-11-20 01:28:57.667193] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.669086] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3477.53, 3457.61, 3394.14, 3382.48, 3336.85, 3328.26, 3295.49, 3288.23, 3263.74, 3258.13, 3239.33, 3234.88, 3220.24, 3216.74, 3205.24, 3202.43, 3193.36, 3191.07, 3183.87, 3182, 3176.26]
+[2022-11-20 01:28:57.669153] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.669163] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3202.36, 3456.47, 3120.13, 3717.43, 3176.26]
+[2022-11-20 01:28:57.669173] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.669185] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.670694] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7958.77, 7923.58, 7877.5, 7863.33, 7833.49, 7819.35, 7799.71, 7786.42, 7772.34, 7760.48, 7749.99, 7739.71, 7731.65]
+[2022-11-20 01:28:57.670767] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.671594] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7690.74, 7668.99, 7663.78, 7649.32, 7642.58, 7633.86]
+[2022-11-20 01:28:57.671646] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.672229] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7609.67, 7595.61, 7590.99]
+[2022-11-20 01:28:57.672299] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.673070] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7703.95, 7693.34, 7718.9, 7706.25, 7718.93]
+[2022-11-20 01:28:57.673146] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.673973] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7631.62, 7619.2, 7588.69, 7583.86, 7565.42, 7562.46, 7549.24]
+[2022-11-20 01:28:57.674016] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.674509] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7535.95, 7522.49, 7518.69]
+[2022-11-20 01:28:57.674594] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.675213] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7633.84, 7628.36, 7653.18, 7644.65, 7656.43]
+[2022-11-20 01:28:57.675256] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.676201] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7566.13, 7558.62, 7528.27, 7524.95, 7507.72, 7505.58, 7493.77]
+[2022-11-20 01:28:57.676270] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.676862] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7481.04, 7470.95, 7466.93]
+[2022-11-20 01:28:57.676927] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.677790] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.677940] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7849.71, 7848.48, 7920.17, 7906.37, 7943.76]
+[2022-11-20 01:28:57.677965] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.679014] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7753.95, 7743.43, 7685.45, 7682.21, 7649.9, 7648.75, 7627.58, 7627.38, 7612.32]
+[2022-11-20 01:28:57.679061] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.679664] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7703.82, 7693.28, 7709.09]
+[2022-11-20 01:28:57.679714] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.679760] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 11, [7731.65, 7633.86, 7590.99, 7718.93, 7549.24, 7518.69, 7656.43, 7493.77, 7466.93, 7943.76, 7612.32, 7709.09]
+[2022-11-20 01:28:57.682958] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.683843] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.684241] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 8.12e-05s)
+[2022-11-20 01:28:57.684617] [0x00007fda8243b880] [debug] (UpdateClusterList time: 1.24e-05s)
+[2022-11-20 01:28:57.684663] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 1.84e-05s)
+[2022-11-20 01:28:57.685059] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0008346s)
+[2022-11-20 01:28:57.685083] [0x00007fda8243b880] [info]   iter-1  : 1.0885e+04  2.0898e+04
+[2022-11-20 01:28:57.685089] [0x00007fda8243b880] [debug] 1-th iteration completed
+[2022-11-20 01:28:57.685108] [0x00007fda8243b880] [trace] alpha: 0.01
+[2022-11-20 01:28:57.685121] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.685158] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.685204] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.685787] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3165.32, 3159.37, 3157.65]
+[2022-11-20 01:28:57.685833] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.686468] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.686521] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3429.21, 3388.27, 3416.94, 3399.42, 3413.6]
+[2022-11-20 01:28:57.686564] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.687923] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3293.63, 3259.23, 3221.12, 3211.22, 3183.7, 3179.26, 3160.6, 3158.04, 3145.45, 3143.69, 3135.08, 3133.86, 3127.96]
+[2022-11-20 01:28:57.687987] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.688526] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3426.98, 3422.06, 3426.96]
+[2022-11-20 01:28:57.688574] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.690416] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3284.1, 3261.27, 3246.39, 3226.31, 3211.08, 3196.89, 3185.26, 3174.8, 3165.8, 3158.13, 3151.24, 3145.6, 3140.33, 3136.17, 3132.18, 3129.06]
+[2022-11-20 01:28:57.690524] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.690557] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3157.65, 3413.6, 3127.96, 3426.96, 3129.06]
+[2022-11-20 01:28:57.690602] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.690641] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.691436] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7619.21, 7612.55, 7590.46, 7597.36, 7587.39]
+[2022-11-20 01:28:57.691542] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.692062] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7532.97, 7543.07, 7533.63]
+[2022-11-20 01:28:57.692112] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.692673] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7522.43, 7514.9, 7515.3]
+[2022-11-20 01:28:57.692750] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7587.39, 7533.63, 7515.3]
+[2022-11-20 01:28:57.698654] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.699611] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.699675] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0001165s)
+[2022-11-20 01:28:57.699712] [0x00007fda8243b880] [debug] (UpdateClusterList time: 5.75e-05s)
+[2022-11-20 01:28:57.699721] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 3.9e-05s)
+[2022-11-20 01:28:57.699729] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0014384s)
+[2022-11-20 01:28:57.699766] [0x00007fda8243b880] [info]   iter-2  : 1.0644e+04  1.8042e+04
+[2022-11-20 01:28:57.699796] [0x00007fda8243b880] [debug] 2-th iteration completed
+[2022-11-20 01:28:57.699836] [0x00007fda8243b880] [trace] alpha: 0.015
+[2022-11-20 01:28:57.699850] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.699889] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.699929] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.700866] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3155.57, 3150.03, 3142.7, 3144.76]
+[2022-11-20 01:28:57.700918] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.701747] [0x00007fda8243b880] [trace] oscillation detected
+[2022-11-20 01:28:57.701782] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3501.78, 3488.33, 3520.47, 3513.51, 3522.9]
+[2022-11-20 01:28:57.701807] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.703377] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3322.85, 3276.68, 3219.6, 3204.01, 3172.02, 3167.75, 3149.23, 3147.23, 3136.28, 3135.21, 3128.73]
+[2022-11-20 01:28:57.703444] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.704366] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3542.04, 3522.32, 3556.57, 3550.63, 3558.86]
+[2022-11-20 01:28:57.704440] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.706255] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3336.85, 3288.06, 3227.99, 3212.29, 3179.1, 3172.3, 3153.37, 3149.9, 3138.61, 3136.41, 3129.56, 3128.13, 3123.9]
+[2022-11-20 01:28:57.706320] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.706333] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3144.76, 3522.9, 3128.73, 3558.86, 3123.9]
+[2022-11-20 01:28:57.706348] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.706387] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.707013] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7507.41, 7506.67, 7499.71]
+[2022-11-20 01:28:57.707062] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.707664] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7700.62, 7698.11, 7702.83]
+[2022-11-20 01:28:57.707708] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.708540] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7552.16, 7533.65, 7502.28, 7499.63, 7490.69]
+[2022-11-20 01:28:57.708589] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.709189] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7730.3, 7727.33, 7733.35]
+[2022-11-20 01:28:57.709231] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.710059] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7571.89, 7547.33, 7510.04, 7506.5, 7493.78]
+[2022-11-20 01:28:57.710108] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.710120] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7499.71, 7702.83, 7490.69, 7733.35, 7493.78]
+[2022-11-20 01:28:57.713373] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.714074] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.714101] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0001513s)
+[2022-11-20 01:28:57.714197] [0x00007fda8243b880] [debug] (UpdateClusterList time: 6.83e-05s)
+[2022-11-20 01:28:57.714225] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 5.77e-05s)
+[2022-11-20 01:28:57.714239] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0017854s)
+[2022-11-20 01:28:57.714257] [0x00007fda8243b880] [info]   iter-3  : 1.0618e+04  1.7191e+04
+[2022-11-20 01:28:57.714268] [0x00007fda8243b880] [debug] 3-th iteration completed
+[2022-11-20 01:28:57.714288] [0x00007fda8243b880] [trace] alpha: 0.02
+[2022-11-20 01:28:57.714303] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.714361] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.715010] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.716069] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3177.37, 3157.82, 3148.86, 3156.77, 3154.51, 3160.73]
+[2022-11-20 01:28:57.716129] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.716974] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3486.3, 3488.2, 3517.34, 3515.52, 3524.27]
+[2022-11-20 01:28:57.717022] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.718267] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3286.3, 3261.86, 3223.82, 3218.78, 3204.22, 3201.98, 3195.83, 3194.88]
+[2022-11-20 01:28:57.718323] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.719070] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3417.6, 3403.52, 3410.11, 3408.61]
+[2022-11-20 01:28:57.719120] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.720547] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3418.36, 3369.91, 3360.22, 3335.24, 3328.77, 3315.74, 3311.9, 3305.04, 3302.81, 3299.18]
+[2022-11-20 01:28:57.720601] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.720614] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3160.73, 3524.27, 3194.88, 3408.61, 3299.18]
+[2022-11-20 01:28:57.720630] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.720704] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.721319] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7517.05, 7517.06, 7517.04]
+[2022-11-20 01:28:57.721370] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.721977] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7709.79, 7709.36, 7712.36]
+[2022-11-20 01:28:57.722025] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.722890] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7554.11, 7535.93, 7511.48, 7509.66, 7504.8]
+[2022-11-20 01:28:57.722940] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.723545] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7742.64, 7746.08, 7748.61]
+[2022-11-20 01:28:57.723591] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.724429] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7572.5, 7544.94, 7515.89, 7512.94, 7505.62]
+[2022-11-20 01:28:57.724477] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.724489] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7517.04, 7712.36, 7504.8, 7748.61, 7505.62]
+[2022-11-20 01:28:57.727646] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.728201] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.728225] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0001859s)
+[2022-11-20 01:28:57.728242] [0x00007fda8243b880] [debug] (UpdateClusterList time: 8.09e-05s)
+[2022-11-20 01:28:57.728254] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 7.78e-05s)
+[2022-11-20 01:28:57.728266] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0021174s)
+[2022-11-20 01:28:57.728283] [0x00007fda8243b880] [info]   iter-4  : 1.0805e+04  1.6156e+04
+[2022-11-20 01:28:57.728293] [0x00007fda8243b880] [debug] 4-th iteration completed
+[2022-11-20 01:28:57.728310] [0x00007fda8243b880] [trace] alpha: 0.03
+[2022-11-20 01:28:57.728323] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.728338] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.728354] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.728999] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3275.48, 3282.41, 3280.6]
+[2022-11-20 01:28:57.729033] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.729810] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3415.08, 3418.24, 3425.06, 3425.29]
+[2022-11-20 01:28:57.729869] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.730763] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3301.25, 3290.25, 3277.59, 3276.26, 3272.33]
+[2022-11-20 01:28:57.730816] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.731432] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3438.35, 3438.91, 3444.38]
+[2022-11-20 01:28:57.731477] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.732317] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3315.24, 3292.39, 3277.98, 3275.69, 3270.86]
+[2022-11-20 01:28:57.732366] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.732378] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3280.6, 3425.29, 3272.33, 3444.38, 3270.86]
+[2022-11-20 01:28:57.732418] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.732458] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.733093] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7524.38, 7526.4, 7524.58]
+[2022-11-20 01:28:57.733142] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.733775] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7700.86, 7700.76, 7701.67]
+[2022-11-20 01:28:57.733826] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.734578] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7539.66, 7524.81, 7510.73, 7510.39]
+[2022-11-20 01:28:57.734630] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.735236] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7731.46, 7733.76, 7734.42]
+[2022-11-20 01:28:57.735282] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.736002] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7548.72, 7527.04, 7509.97, 7509.68]
+[2022-11-20 01:28:57.736052] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.736064] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7524.58, 7701.67, 7510.39, 7734.42, 7509.68]
+[2022-11-20 01:28:57.739218] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.739714] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.739760] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0002201s)
+[2022-11-20 01:28:57.739785] [0x00007fda8243b880] [debug] (UpdateClusterList time: 9.17e-05s)
+[2022-11-20 01:28:57.739803] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 9.59e-05s)
+[2022-11-20 01:28:57.739820] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0023656s)
+[2022-11-20 01:28:57.739838] [0x00007fda8243b880] [info]   iter-5  : 1.0781e+04  1.5818e+04
+[2022-11-20 01:28:57.739853] [0x00007fda8243b880] [debug] 5-th iteration completed
+[2022-11-20 01:28:57.739879] [0x00007fda8243b880] [trace] alpha: 0.04
+[2022-11-20 01:28:57.739895] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.739909] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.739926] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.740889] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3308.91, 3303.83, 3315.28, 3315.53, 3317.5]
+[2022-11-20 01:28:57.740963] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.741540] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3440.44, 3444.28, 3449.33, 3450.02]
+[2022-11-20 01:28:57.741925] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.742487] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3352.43, 3348.65, 3341.08, 3340.87]
+[2022-11-20 01:28:57.742535] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.742969] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3482.34, 3485.41, 3488.58]
+[2022-11-20 01:28:57.743010] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.743607] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3360.16, 3353.04, 3345.78, 3343.71, 3342.18]
+[2022-11-20 01:28:57.743652] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.743662] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3317.5, 3450.02, 3340.87, 3488.58, 3342.18]
+[2022-11-20 01:28:57.743672] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.743683] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.744181] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7558.63, 7560.67, 7561.67]
+[2022-11-20 01:28:57.744225] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.744734] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7729.65, 7731.57, 7732.62]
+[2022-11-20 01:28:57.744790] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.745352] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7591.33, 7576.86, 7569.02, 7567.85]
+[2022-11-20 01:28:57.745406] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.745867] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7770.24, 7771.42, 7771.89]
+[2022-11-20 01:28:57.745911] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.746406] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7585.04, 7570.97, 7560.39, 7560.27]
+[2022-11-20 01:28:57.746458] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.746494] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7561.67, 7732.62, 7567.85, 7771.89, 7560.27]
+[2022-11-20 01:28:57.749682] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.750225] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.750258] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0002549s)
+[2022-11-20 01:28:57.750274] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001041s)
+[2022-11-20 01:28:57.750285] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0001139s)
+[2022-11-20 01:28:57.750295] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0026583s)
+[2022-11-20 01:28:57.750313] [0x00007fda8243b880] [info]   iter-6  : 1.0902e+04  1.6607e+04
+[2022-11-20 01:28:57.750322] [0x00007fda8243b880] [debug] 6-th iteration completed
+[2022-11-20 01:28:57.750338] [0x00007fda8243b880] [trace] alpha: 0.05
+[2022-11-20 01:28:57.750350] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.750363] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.750378] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.750965] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3399.62, 3393, 3398.42]
+[2022-11-20 01:28:57.750990] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.751567] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3498.65, 3500.49, 3503.06]
+[2022-11-20 01:28:57.751624] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.752073] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3425.03, 3424.58, 3422.27]
+[2022-11-20 01:28:57.752110] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.752540] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3528.92, 3529.2, 3530.05]
+[2022-11-20 01:28:57.752592] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.753139] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3429.62, 3428.19, 3424.88]
+[2022-11-20 01:28:57.753204] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.753215] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3398.42, 3503.06, 3422.27, 3530.05, 3424.88]
+[2022-11-20 01:28:57.753227] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.753262] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.753718] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7613.94, 7609.92, 7610.94]
+[2022-11-20 01:28:57.753761] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.754209] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7827.34, 7829.49, 7830.1]
+[2022-11-20 01:28:57.754253] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.754662] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7613.13, 7608.13, 7603.11]
+[2022-11-20 01:28:57.754694] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.755209] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7799.96, 7800.99, 7801.12]
+[2022-11-20 01:28:57.755258] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.755704] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7616.03, 7606.64, 7601.87]
+[2022-11-20 01:28:57.755744] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.755754] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7610.94, 7830.1, 7603.11, 7801.12, 7601.87]
+[2022-11-20 01:28:57.759041] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.759543] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.759563] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0002876s)
+[2022-11-20 01:28:57.759578] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.000112s)
+[2022-11-20 01:28:57.759588] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.000132s)
+[2022-11-20 01:28:57.759598] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0029036s)
+[2022-11-20 01:28:57.759612] [0x00007fda8243b880] [info]   iter-7  : 1.1027e+04  1.6089e+04
+[2022-11-20 01:28:57.759621] [0x00007fda8243b880] [debug] 7-th iteration completed
+[2022-11-20 01:28:57.759636] [0x00007fda8243b880] [trace] alpha: 0.06
+[2022-11-20 01:28:57.759648] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.759660] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.759674] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.761040] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3449.46, 3447.95, 3451.73]
+[2022-11-20 01:28:57.761124] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.761759] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3548.37, 3551.45, 3553.78]
+[2022-11-20 01:28:57.761804] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.762329] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3485.8, 3485.3, 3483.6]
+[2022-11-20 01:28:57.762368] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.762774] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3567.76, 3567.86, 3569.13]
+[2022-11-20 01:28:57.762808] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.763250] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3490.33, 3490.45, 3488.57]
+[2022-11-20 01:28:57.763649] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.763662] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3451.73, 3553.78, 3483.6, 3569.13, 3488.57]
+[2022-11-20 01:28:57.763674] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.763685] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.764170] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7626.09, 7629.56, 7629.93]
+[2022-11-20 01:28:57.764208] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.764720] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7829.36, 7831.75, 7832.44]
+[2022-11-20 01:28:57.764759] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.765176] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7617.65, 7617.08, 7615.32]
+[2022-11-20 01:28:57.765211] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.765649] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7802.12, 7803.1, 7803.31]
+[2022-11-20 01:28:57.765685] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.766087] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7619.85, 7616.22, 7613.72]
+[2022-11-20 01:28:57.766121] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.766130] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7629.93, 7832.44, 7615.32, 7803.31, 7613.72]
+[2022-11-20 01:28:57.769578] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.770102] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.770127] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.000322s)
+[2022-11-20 01:28:57.770144] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001197s)
+[2022-11-20 01:28:57.770156] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0001497s)
+[2022-11-20 01:28:57.770167] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0031982s)
+[2022-11-20 01:28:57.770182] [0x00007fda8243b880] [info]   iter-8  : 1.1102e+04  1.5804e+04
+[2022-11-20 01:28:57.770249] [0x00007fda8243b880] [debug] 8-th iteration completed
+[2022-11-20 01:28:57.770304] [0x00007fda8243b880] [trace] alpha: 0.07
+[2022-11-20 01:28:57.770323] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.770337] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.770353] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.770966] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3590.33, 3585.3, 3588.4]
+[2022-11-20 01:28:57.770997] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.771487] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3673.55, 3674.61, 3676.07]
+[2022-11-20 01:28:57.771531] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.771978] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3632.68, 3632.44, 3631.74]
+[2022-11-20 01:28:57.772018] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.772466] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3687.91, 3688.09, 3688.85]
+[2022-11-20 01:28:57.772504] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.773010] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3636.89, 3636.93, 3636.05]
+[2022-11-20 01:28:57.773050] [0x00007fda8243b880] [trace] Net model update oscillation detected X
+[2022-11-20 01:28:57.773084] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [3588.4, 3676.07, 3631.74, 3688.85, 3636.05]
+[2022-11-20 01:28:57.773118] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.773152] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.773604] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7647.93, 7650.52, 7650.62]
+[2022-11-20 01:28:57.773643] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.774089] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7827.29, 7829.69, 7829.92]
+[2022-11-20 01:28:57.774128] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.774574] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7644.12, 7644.36, 7643.73]
+[2022-11-20 01:28:57.774612] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.775057] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7815.12, 7815.7, 7815.77]
+[2022-11-20 01:28:57.775106] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.775536] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7654.76, 7651.97, 7648.72]
+[2022-11-20 01:28:57.775571] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.775601] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7650.62, 7829.92, 7643.73, 7815.77, 7648.72]
+[2022-11-20 01:28:57.779113] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.779521] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.779538] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0003547s)
+[2022-11-20 01:28:57.779553] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001282s)
+[2022-11-20 01:28:57.779563] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0001632s)
+[2022-11-20 01:28:57.779573] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.003399s)
+[2022-11-20 01:28:57.779586] [0x00007fda8243b880] [info]   iter-9  : 1.1285e+04  1.5173e+04
+[2022-11-20 01:28:57.779594] [0x00007fda8243b880] [debug] 9-th iteration completed
+[2022-11-20 01:28:57.779609] [0x00007fda8243b880] [trace] alpha: 0.09
+[2022-11-20 01:28:57.779620] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.779632] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.779645] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.780338] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3689.77, 3699.07, 3700.33, 3700.61]
+[2022-11-20 01:28:57.780366] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.780940] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3759.65, 3761.89, 3762.66]
+[2022-11-20 01:28:57.780981] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.781563] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3748.24, 3750.19, 3750.08]
+[2022-11-20 01:28:57.781602] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.782163] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3779.09, 3779.68, 3779.97]
+[2022-11-20 01:28:57.782199] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [3700.61, 3762.66, 3750.08, 3779.97]
+[2022-11-20 01:28:57.782215] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.782231] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.782689] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7694.78, 7697.11, 7697.18]
+[2022-11-20 01:28:57.782724] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.783147] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7796.66, 7798.39, 7798.37]
+[2022-11-20 01:28:57.783182] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.783604] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7697.02, 7696.64, 7696.49]
+[2022-11-20 01:28:57.784072] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.784531] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7843.77, 7844.16, 7844.21]
+[2022-11-20 01:28:57.784571] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.784978] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7696.55, 7696.64, 7696.44]
+[2022-11-20 01:28:57.785012] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.785021] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7697.18, 7798.37, 7696.49, 7844.21, 7696.44]
+[2022-11-20 01:28:57.788127] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.788638] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.788661] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0003867s)
+[2022-11-20 01:28:57.788677] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001407s)
+[2022-11-20 01:28:57.788687] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0001826s)
+[2022-11-20 01:28:57.788697] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0036996s)
+[2022-11-20 01:28:57.788711] [0x00007fda8243b880] [info]   iter-10 : 1.1476e+04  1.5271e+04
+[2022-11-20 01:28:57.788720] [0x00007fda8243b880] [debug] 10-th iteration completed
+[2022-11-20 01:28:57.788793] [0x00007fda8243b880] [trace] alpha: 0.11
+[2022-11-20 01:28:57.788858] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.788879] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.788896] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.789470] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3879.45, 3885.44, 3886.18]
+[2022-11-20 01:28:57.789497] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.789965] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3927.66, 3926.28, 3926.54]
+[2022-11-20 01:28:57.790006] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.790434] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3941.46, 3940.66, 3940.75]
+[2022-11-20 01:28:57.790473] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.790916] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3946.32, 3945.97, 3946.01]
+[2022-11-20 01:28:57.790956] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [3886.18, 3926.54, 3940.75, 3946.01]
+[2022-11-20 01:28:57.790970] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.790979] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.791379] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7719.04, 7718.62, 7718.6]
+[2022-11-20 01:28:57.791412] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.791813] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7800.78, 7800.63, 7800.62]
+[2022-11-20 01:28:57.791846] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.792247] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7703.72, 7703.2, 7703.11]
+[2022-11-20 01:28:57.792279] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.792688] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7835.64, 7835.66, 7835.66]
+[2022-11-20 01:28:57.792722] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.793131] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7701.7, 7700.45, 7700.16]
+[2022-11-20 01:28:57.793166] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.793175] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7718.6, 7800.62, 7703.11, 7835.66, 7700.16]
+[2022-11-20 01:28:57.797067] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.797624] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.797653] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0004195s)
+[2022-11-20 01:28:57.797672] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001531s)
+[2022-11-20 01:28:57.797684] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.000201s)
+[2022-11-20 01:28:57.797695] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0039871s)
+[2022-11-20 01:28:57.797710] [0x00007fda8243b880] [info]   iter-11 : 1.1646e+04  1.4874e+04
+[2022-11-20 01:28:57.797720] [0x00007fda8243b880] [debug] 11-th iteration completed
+[2022-11-20 01:28:57.797737] [0x00007fda8243b880] [trace] alpha: 0.13
+[2022-11-20 01:28:57.797751] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.797765] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.797781] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.798382] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [3993.31, 3998.44, 3998.62]
+[2022-11-20 01:28:57.798407] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.799016] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4045.03, 4045.04, 4045.3]
+[2022-11-20 01:28:57.799063] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.799675] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4034.04, 4034.8, 4034.73]
+[2022-11-20 01:28:57.799718] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.800319] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4057.4, 4057.36, 4057.46]
+[2022-11-20 01:28:57.800366] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [3998.62, 4045.3, 4034.73, 4057.46]
+[2022-11-20 01:28:57.800384] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.800398] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.801058] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7758.35, 7759.83, 7759.94]
+[2022-11-20 01:28:57.801118] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.801766] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7866.52, 7868.46, 7868.48]
+[2022-11-20 01:28:57.801826] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.802506] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7772.12, 7770.82, 7770.76]
+[2022-11-20 01:28:57.802569] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.803162] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7881.6, 7881.92, 7881.92]
+[2022-11-20 01:28:57.803209] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.803815] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7773.25, 7773.12, 7773.1]
+[2022-11-20 01:28:57.803864] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.803876] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7759.94, 7868.48, 7770.76, 7881.92, 7773.1]
+[2022-11-20 01:28:57.807130] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.807668] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.807804] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0004545s)
+[2022-11-20 01:28:57.807832] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001633s)
+[2022-11-20 01:28:57.807847] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0002173s)
+[2022-11-20 01:28:57.807861] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0042609s)
+[2022-11-20 01:28:57.809952] [0x00007fda8243b880] [info]   iter-12 : 1.1831e+04  1.4546e+04
+[2022-11-20 01:28:57.810006] [0x00007fda8243b880] [debug] 12-th iteration completed
+[2022-11-20 01:28:57.810051] [0x00007fda8243b880] [trace] alpha: 0.15
+[2022-11-20 01:28:57.810087] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.810126] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.810170] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.810767] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4101.6, 4104.15, 4104.16]
+[2022-11-20 01:28:57.810819] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.811278] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4128.16, 4127.7, 4127.73]
+[2022-11-20 01:28:57.811322] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.811822] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4136.39, 4136.07, 4136.08]
+[2022-11-20 01:28:57.811871] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4104.16, 4127.73, 4136.08]
+[2022-11-20 01:28:57.811885] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.811897] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.812376] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7793.5, 7794.71, 7794.71]
+[2022-11-20 01:28:57.812421] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.812908] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7906.99, 7907.73, 7907.73]
+[2022-11-20 01:28:57.812952] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.813437] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7790.61, 7789.39, 7789.36]
+[2022-11-20 01:28:57.813471] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.813945] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7885.28, 7885.38, 7885.38]
+[2022-11-20 01:28:57.814001] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.814565] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7803.58, 7803.67, 7803.64]
+[2022-11-20 01:28:57.814623] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.814633] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7794.71, 7907.73, 7789.36, 7885.38, 7803.64]
+[2022-11-20 01:28:57.818332] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.818925] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.818952] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0004911s)
+[2022-11-20 01:28:57.818980] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001747s)
+[2022-11-20 01:28:57.818996] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.000234s)
+[2022-11-20 01:28:57.819011] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0045225s)
+[2022-11-20 01:28:57.819032] [0x00007fda8243b880] [info]   iter-13 : 1.1940e+04  1.4248e+04
+[2022-11-20 01:28:57.819045] [0x00007fda8243b880] [debug] 13-th iteration completed
+[2022-11-20 01:28:57.819068] [0x00007fda8243b880] [trace] alpha: 0.17
+[2022-11-20 01:28:57.819083] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.819100] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.819119] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.819766] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4138.77, 4139.72, 4139.77]
+[2022-11-20 01:28:57.819796] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.820397] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4184.9, 4185, 4185.07]
+[2022-11-20 01:28:57.820441] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.821004] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4154.56, 4154.87, 4154.84]
+[2022-11-20 01:28:57.821047] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.821565] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4190.61, 4190.52, 4190.55]
+[2022-11-20 01:28:57.821608] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [4139.77, 4185.07, 4154.84, 4190.55]
+[2022-11-20 01:28:57.821624] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.821635] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.822201] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7811.97, 7811.93, 7811.93]
+[2022-11-20 01:28:57.822254] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.822791] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7899.6, 7899.63, 7899.63]
+[2022-11-20 01:28:57.822839] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.823286] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7815.28, 7814.91, 7814.91]
+[2022-11-20 01:28:57.823323] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.823762] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7887.15, 7887.17, 7887.17]
+[2022-11-20 01:28:57.823810] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.824248] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7796.26, 7795.43, 7795.42]
+[2022-11-20 01:28:57.824285] [0x00007fda8243b880] [trace] Net model update oscillation detected Y
+[2022-11-20 01:28:57.824295] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7811.93, 7899.63, 7814.91, 7887.17, 7795.42]
+[2022-11-20 01:28:57.827845] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.828292] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.828334] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0005246s)
+[2022-11-20 01:28:57.828356] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001853s)
+[2022-11-20 01:28:57.828368] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0002456s)
+[2022-11-20 01:28:57.828379] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0047459s)
+[2022-11-20 01:28:57.828395] [0x00007fda8243b880] [info]   iter-14 : 1.1986e+04  1.4514e+04
+[2022-11-20 01:28:57.828404] [0x00007fda8243b880] [debug] 14-th iteration completed
+[2022-11-20 01:28:57.828452] [0x00007fda8243b880] [trace] alpha: 0.2
+[2022-11-20 01:28:57.828481] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.828504] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.828526] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.829150] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4220.23, 4221.07, 4221.19]
+[2022-11-20 01:28:57.829181] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.829804] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4245.72, 4245.64, 4245.65]
+[2022-11-20 01:28:57.829851] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.830291] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4253.42, 4253.33, 4253.33]
+[2022-11-20 01:28:57.830344] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4221.19, 4245.65, 4253.33]
+[2022-11-20 01:28:57.830379] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.830411] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.830927] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7855.4, 7854.91, 7854.92]
+[2022-11-20 01:28:57.831324] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.831791] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7958.59, 7958.66, 7958.67]
+[2022-11-20 01:28:57.831831] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.832270] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7874.77, 7874.66, 7874.66]
+[2022-11-20 01:28:57.832307] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.832743] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7940.86, 7940.98, 7940.98]
+[2022-11-20 01:28:57.832779] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.833184] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7896.53, 7896.32, 7896.32]
+[2022-11-20 01:28:57.833218] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 4, [7854.92, 7958.67, 7874.66, 7940.98, 7896.32]
+[2022-11-20 01:28:57.836498] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.836881] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.836900] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0005575s)
+[2022-11-20 01:28:57.836915] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001926s)
+[2022-11-20 01:28:57.836927] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0002587s)
+[2022-11-20 01:28:57.836938] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0049342s)
+[2022-11-20 01:28:57.836953] [0x00007fda8243b880] [info]   iter-15 : 1.2150e+04  1.4241e+04
+[2022-11-20 01:28:57.836962] [0x00007fda8243b880] [debug] 15-th iteration completed
+[2022-11-20 01:28:57.836978] [0x00007fda8243b880] [trace] alpha: 0.23
+[2022-11-20 01:28:57.836991] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.837003] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.837018] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.837598] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4301.74, 4301.87, 4301.94]
+[2022-11-20 01:28:57.837621] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.838213] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4330.26, 4330.4, 4330.41]
+[2022-11-20 01:28:57.838259] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.838857] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4339.85, 4339.82, 4339.82]
+[2022-11-20 01:28:57.838899] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4301.94, 4330.41, 4339.82]
+[2022-11-20 01:28:57.838915] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.838928] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.839530] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7900.34, 7900.6, 7900.6]
+[2022-11-20 01:28:57.839574] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.840140] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7949.94, 7950.09, 7950.09]
+[2022-11-20 01:28:57.840179] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.840780] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7903.6, 7903.54, 7903.54]
+[2022-11-20 01:28:57.840822] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7900.6, 7950.09, 7903.54]
+[2022-11-20 01:28:57.844245] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.844786] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.844809] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0005902s)
+[2022-11-20 01:28:57.844822] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0001991s)
+[2022-11-20 01:28:57.844828] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0002724s)
+[2022-11-20 01:28:57.844834] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0051431s)
+[2022-11-20 01:28:57.844845] [0x00007fda8243b880] [info]   iter-16 : 1.2243e+04  1.4015e+04
+[2022-11-20 01:28:57.844851] [0x00007fda8243b880] [debug] 16-th iteration completed
+[2022-11-20 01:28:57.844862] [0x00007fda8243b880] [trace] alpha: 0.26
+[2022-11-20 01:28:57.844870] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.844878] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.844889] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.845480] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4387.75, 4388.47, 4388.48]
+[2022-11-20 01:28:57.845502] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.846098] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4425.9, 4426, 4426]
+[2022-11-20 01:28:57.846149] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.846784] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4422.71, 4422.78, 4422.79]
+[2022-11-20 01:28:57.846835] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4388.48, 4426, 4422.79]
+[2022-11-20 01:28:57.846890] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.846927] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.847548] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7917.01, 7917.05, 7917.05]
+[2022-11-20 01:28:57.847595] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.848010] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7961.38, 7961.44, 7961.44]
+[2022-11-20 01:28:57.848045] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.848479] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7910.1, 7910.04, 7910.04]
+[2022-11-20 01:28:57.848517] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7917.05, 7961.44, 7910.04]
+[2022-11-20 01:28:57.851963] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.852494] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.852519] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0006258s)
+[2022-11-20 01:28:57.852534] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002082s)
+[2022-11-20 01:28:57.852545] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0002931s)
+[2022-11-20 01:28:57.852556] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0054103s)
+[2022-11-20 01:28:57.852570] [0x00007fda8243b880] [info]   iter-17 : 1.2333e+04  1.4828e+04
+[2022-11-20 01:28:57.852580] [0x00007fda8243b880] [debug] 17-th iteration completed
+[2022-11-20 01:28:57.852596] [0x00007fda8243b880] [trace] alpha: 0.29
+[2022-11-20 01:28:57.852609] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.852621] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.852636] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.853253] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4628.54, 4628.53, 4628.79]
+[2022-11-20 01:28:57.853276] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.853888] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4706.6, 4706.32, 4706.37]
+[2022-11-20 01:28:57.853933] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.854402] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4717.03, 4717.02, 4717.02]
+[2022-11-20 01:28:57.854444] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.855273] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4736.48, 4736.52, 4736.52]
+[2022-11-20 01:28:57.855319] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [4628.79, 4706.37, 4717.02, 4736.52]
+[2022-11-20 01:28:57.855335] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.855347] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.855796] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7942.45, 7942.47, 7942.47]
+[2022-11-20 01:28:57.855832] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.856282] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7998.03, 7998.08, 7998.08]
+[2022-11-20 01:28:57.856322] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.856797] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7944.09, 7944.04, 7944.04]
+[2022-11-20 01:28:57.856837] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7942.47, 7998.08, 7944.04]
+[2022-11-20 01:28:57.860834] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.861289] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.861318] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.000663s)
+[2022-11-20 01:28:57.861336] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002175s)
+[2022-11-20 01:28:57.861348] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003099s)
+[2022-11-20 01:28:57.861359] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.005566s)
+[2022-11-20 01:28:57.861374] [0x00007fda8243b880] [info]   iter-18 : 1.2681e+04  1.4249e+04
+[2022-11-20 01:28:57.861399] [0x00007fda8243b880] [debug] 18-th iteration completed
+[2022-11-20 01:28:57.861416] [0x00007fda8243b880] [trace] alpha: 0.32
+[2022-11-20 01:28:57.861428] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.861440] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.861456] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.862113] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4662.28, 4662.11, 4662.11]
+[2022-11-20 01:28:57.862141] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.862802] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4673.78, 4673.85, 4673.85]
+[2022-11-20 01:28:57.862857] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.863568] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4664.28, 4664.32, 4664.32]
+[2022-11-20 01:28:57.863656] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4662.11, 4673.85, 4664.32]
+[2022-11-20 01:28:57.863697] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.863716] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.864417] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7936.8, 7936.81, 7936.81]
+[2022-11-20 01:28:57.864469] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.865022] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7976.27, 7976.26, 7976.26]
+[2022-11-20 01:28:57.865068] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.865649] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7922.65, 7922.66, 7922.66]
+[2022-11-20 01:28:57.865703] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7936.81, 7976.26, 7922.66]
+[2022-11-20 01:28:57.869705] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.870303] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.870329] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0006995s)
+[2022-11-20 01:28:57.870347] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002284s)
+[2022-11-20 01:28:57.870359] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003283s)
+[2022-11-20 01:28:57.870370] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0058554s)
+[2022-11-20 01:28:57.870385] [0x00007fda8243b880] [info]   iter-19 : 1.2587e+04  1.4369e+04
+[2022-11-20 01:28:57.870395] [0x00007fda8243b880] [debug] 19-th iteration completed
+[2022-11-20 01:28:57.870412] [0x00007fda8243b880] [trace] alpha: 0.35
+[2022-11-20 01:28:57.870424] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.870437] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.870453] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.871190] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4718.17, 4717.4, 4717.41]
+[2022-11-20 01:28:57.871236] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.871873] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4747.96, 4747.93, 4747.93]
+[2022-11-20 01:28:57.871919] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.872557] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4742.92, 4742.94, 4742.94]
+[2022-11-20 01:28:57.872602] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4717.41, 4747.93, 4742.94]
+[2022-11-20 01:28:57.872646] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.872684] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.873280] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7930.31, 7930.33, 7930.33]
+[2022-11-20 01:28:57.873324] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.873827] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7963.4, 7963.4, 7963.4]
+[2022-11-20 01:28:57.873869] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.874444] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7926.05, 7926.06, 7926.06]
+[2022-11-20 01:28:57.874496] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7930.33, 7963.4, 7926.06]
+[2022-11-20 01:28:57.880107] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.880625] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.880667] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0007399s)
+[2022-11-20 01:28:57.880702] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002402s)
+[2022-11-20 01:28:57.880724] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003454s)
+[2022-11-20 01:28:57.880742] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0060984s)
+[2022-11-20 01:28:57.880759] [0x00007fda8243b880] [info]   iter-20 : 1.2669e+04  1.4195e+04
+[2022-11-20 01:28:57.880770] [0x00007fda8243b880] [debug] 20-th iteration completed
+[2022-11-20 01:28:57.880789] [0x00007fda8243b880] [trace] alpha: 0.38
+[2022-11-20 01:28:57.880803] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.880817] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.880834] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.881487] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4767.28, 4767.35, 4767.35]
+[2022-11-20 01:28:57.881514] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.882141] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4792.8, 4792.84, 4792.84]
+[2022-11-20 01:28:57.882191] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.882734] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4787.16, 4787.18, 4787.18]
+[2022-11-20 01:28:57.883026] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4767.35, 4792.84, 4787.18]
+[2022-11-20 01:28:57.883066] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.883105] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.883624] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7951.22, 7951.22, 7951.22]
+[2022-11-20 01:28:57.883667] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.884236] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7985.73, 7985.74, 7985.74]
+[2022-11-20 01:28:57.884281] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.884798] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7951.89, 7951.9, 7951.9]
+[2022-11-20 01:28:57.884841] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7951.22, 7985.74, 7951.9]
+[2022-11-20 01:28:57.888475] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.888937] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.888959] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0007777s)
+[2022-11-20 01:28:57.888976] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002494s)
+[2022-11-20 01:28:57.888990] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003638s)
+[2022-11-20 01:28:57.889003] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.006325s)
+[2022-11-20 01:28:57.889020] [0x00007fda8243b880] [info]   iter-21 : 1.2739e+04  1.4207e+04
+[2022-11-20 01:28:57.889031] [0x00007fda8243b880] [debug] 21-th iteration completed
+[2022-11-20 01:28:57.889049] [0x00007fda8243b880] [trace] alpha: 0.41
+[2022-11-20 01:28:57.889063] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.889077] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.889095] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.889780] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4842.06, 4841.68, 4841.68]
+[2022-11-20 01:28:57.889810] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.890449] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4873.78, 4873.78, 4873.78]
+[2022-11-20 01:28:57.890500] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.891185] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4870.2, 4870.22, 4870.22]
+[2022-11-20 01:28:57.891248] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4841.68, 4873.78, 4870.22]
+[2022-11-20 01:28:57.891287] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.891328] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.891992] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7965.65, 7965.69, 7965.69]
+[2022-11-20 01:28:57.892042] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.892701] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7989.41, 7989.41, 7989.41]
+[2022-11-20 01:28:57.892755] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.893426] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7964.88, 7964.88, 7964.88]
+[2022-11-20 01:28:57.893491] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7965.69, 7989.41, 7964.88]
+[2022-11-20 01:28:57.897212] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.897758] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.897789] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0008144s)
+[2022-11-20 01:28:57.897808] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002578s)
+[2022-11-20 01:28:57.897821] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003797s)
+[2022-11-20 01:28:57.897834] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0066022s)
+[2022-11-20 01:28:57.897850] [0x00007fda8243b880] [info]   iter-22 : 1.2835e+04  1.4081e+04
+[2022-11-20 01:28:57.897861] [0x00007fda8243b880] [debug] 22-th iteration completed
+[2022-11-20 01:28:57.897881] [0x00007fda8243b880] [trace] alpha: 0.44
+[2022-11-20 01:28:57.897895] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.897909] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.897926] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.898604] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4885.61, 4885.41, 4885.41]
+[2022-11-20 01:28:57.898635] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.899308] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4909.26, 4909.25, 4909.25]
+[2022-11-20 01:28:57.899364] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.900127] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4902.48, 4902.49, 4902.49]
+[2022-11-20 01:28:57.900184] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4885.41, 4909.25, 4902.49]
+[2022-11-20 01:28:57.900228] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.900273] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.901043] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7976.48, 7976.49, 7976.49]
+[2022-11-20 01:28:57.901102] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.901839] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7998.94, 7998.94, 7998.94]
+[2022-11-20 01:28:57.901892] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.902632] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7975.03, 7975.03, 7975.03]
+[2022-11-20 01:28:57.902687] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7976.49, 7998.94, 7975.03]
+[2022-11-20 01:28:57.908091] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.908471] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.908509] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0008542s)
+[2022-11-20 01:28:57.908562] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002657s)
+[2022-11-20 01:28:57.908593] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0003902s)
+[2022-11-20 01:28:57.908624] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0067459s)
+[2022-11-20 01:28:57.908659] [0x00007fda8243b880] [info]   iter-23 : 1.2878e+04  1.3884e+04
+[2022-11-20 01:28:57.908687] [0x00007fda8243b880] [debug] 23-th iteration completed
+[2022-11-20 01:28:57.908724] [0x00007fda8243b880] [trace] alpha: 0.47
+[2022-11-20 01:28:57.908755] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.908770] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.908800] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.909300] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4792.04, 4791.88, 4791.88]
+[2022-11-20 01:28:57.909343] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.909819] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4791.74, 4791.77, 4791.77]
+[2022-11-20 01:28:57.909859] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.910333] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [4780.77, 4780.77, 4780.77]
+[2022-11-20 01:28:57.910383] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [4791.88, 4791.77, 4780.77]
+[2022-11-20 01:28:57.910751] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.910801] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.911315] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7972.26, 7972.26, 7972.26]
+[2022-11-20 01:28:57.911364] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.911926] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7991.22, 7991.23, 7991.23]
+[2022-11-20 01:28:57.912001] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.912690] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7970.43, 7970.42, 7970.42]
+[2022-11-20 01:28:57.912747] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7972.26, 7991.23, 7970.42]
+[2022-11-20 01:28:57.916501] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.917010] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.917046] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0008891s)
+[2022-11-20 01:28:57.917063] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002771s)
+[2022-11-20 01:28:57.917070] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0004047s)
+[2022-11-20 01:28:57.917077] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0069773s)
+[2022-11-20 01:28:57.917087] [0x00007fda8243b880] [info]   iter-24 : 1.2751e+04  1.4745e+04
+[2022-11-20 01:28:57.917104] [0x00007fda8243b880] [debug] 24-th iteration completed
+[2022-11-20 01:28:57.917121] [0x00007fda8243b880] [trace] alpha: 0.5
+[2022-11-20 01:28:57.917133] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.917146] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.917160] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.917793] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5041.66, 5041.59, 5041.6]
+[2022-11-20 01:28:57.917817] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.918433] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5127.75, 5127.76, 5127.77]
+[2022-11-20 01:28:57.918479] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.919154] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5150.97, 5150.97, 5150.97]
+[2022-11-20 01:28:57.919215] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.919923] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5173.16, 5173.16, 5173.16]
+[2022-11-20 01:28:57.919983] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [5041.6, 5127.77, 5150.97, 5173.16]
+[2022-11-20 01:28:57.920026] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.920068] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.920805] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7987.02, 7987.02, 7987.02]
+[2022-11-20 01:28:57.920857] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.921450] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8013.18, 8013.18, 8013.18]
+[2022-11-20 01:28:57.921502] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.922010] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7996.6, 7996.6, 7996.6]
+[2022-11-20 01:28:57.922052] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7987.02, 8013.18, 7996.6]
+[2022-11-20 01:28:57.925777] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.926449] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.926481] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.000927s)
+[2022-11-20 01:28:57.926501] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0002901s)
+[2022-11-20 01:28:57.926514] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.000425s)
+[2022-11-20 01:28:57.926527] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0073007s)
+[2022-11-20 01:28:57.926544] [0x00007fda8243b880] [info]   iter-25 : 1.3170e+04  1.4793e+04
+[2022-11-20 01:28:57.926555] [0x00007fda8243b880] [debug] 25-th iteration completed
+[2022-11-20 01:28:57.926574] [0x00007fda8243b880] [trace] alpha: 0.53
+[2022-11-20 01:28:57.926588] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.926602] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.926619] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.927277] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5210.34, 5209.95, 5209.95]
+[2022-11-20 01:28:57.927305] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.927945] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5221.17, 5221.2, 5221.2]
+[2022-11-20 01:28:57.927997] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.928712] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5229.14, 5229.13, 5229.13]
+[2022-11-20 01:28:57.928772] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5209.95, 5221.2, 5229.13]
+[2022-11-20 01:28:57.928815] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.928858] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.929572] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8000.04, 8000.04, 8000.04]
+[2022-11-20 01:28:57.929626] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.930411] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8015.61, 8015.61, 8015.61]
+[2022-11-20 01:28:57.930474] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.931198] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7998.71, 7998.71, 7998.71]
+[2022-11-20 01:28:57.931294] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [8000.04, 8015.61, 7998.71]
+[2022-11-20 01:28:57.935698] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.936282] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.936299] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0009643s)
+[2022-11-20 01:28:57.936312] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003003s)
+[2022-11-20 01:28:57.936320] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0004446s)
+[2022-11-20 01:28:57.936327] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0075928s)
+[2022-11-20 01:28:57.936338] [0x00007fda8243b880] [info]   iter-26 : 1.3228e+04  1.4490e+04
+[2022-11-20 01:28:57.936344] [0x00007fda8243b880] [debug] 26-th iteration completed
+[2022-11-20 01:28:57.936358] [0x00007fda8243b880] [trace] alpha: 0.56
+[2022-11-20 01:28:57.936367] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.936376] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.936388] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.937029] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5163.39, 5163.36, 5163.36]
+[2022-11-20 01:28:57.937053] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.937705] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5149.95, 5149.96, 5149.96]
+[2022-11-20 01:28:57.937754] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.938403] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5151.12, 5151.13, 5151.13]
+[2022-11-20 01:28:57.938738] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5163.36, 5149.96, 5151.13]
+[2022-11-20 01:28:57.938790] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.938864] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.939435] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7998.01, 7998.01, 7998.01]
+[2022-11-20 01:28:57.939482] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.940087] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8008.54, 8008.54, 8008.54]
+[2022-11-20 01:28:57.940172] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.940837] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7991.58, 7991.58, 7991.58]
+[2022-11-20 01:28:57.940887] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7998.01, 8008.54, 7991.58]
+[2022-11-20 01:28:57.944508] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.945019] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.945047] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0010012s)
+[2022-11-20 01:28:57.945065] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003113s)
+[2022-11-20 01:28:57.945078] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0004637s)
+[2022-11-20 01:28:57.945092] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0078391s)
+[2022-11-20 01:28:57.945110] [0x00007fda8243b880] [info]   iter-27 : 1.3143e+04  1.5022e+04
+[2022-11-20 01:28:57.945121] [0x00007fda8243b880] [debug] 27-th iteration completed
+[2022-11-20 01:28:57.945139] [0x00007fda8243b880] [trace] alpha: 0.59
+[2022-11-20 01:28:57.945153] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.945167] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.945185] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.946751] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5311.24, 5311.14, 5311.14]
+[2022-11-20 01:28:57.946813] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.947501] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5367.19, 5367.19, 5367.19]
+[2022-11-20 01:28:57.947555] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.948203] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5377.33, 5377.34, 5377.34]
+[2022-11-20 01:28:57.948250] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.948885] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5395.75, 5395.75, 5395.75]
+[2022-11-20 01:28:57.948954] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [5311.14, 5367.19, 5377.34, 5395.75]
+[2022-11-20 01:28:57.949007] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.949046] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.949564] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7989.65, 7989.66, 7989.66]
+[2022-11-20 01:28:57.949608] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.950074] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8001.6, 8001.6, 8001.6]
+[2022-11-20 01:28:57.950118] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.950697] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7986.89, 7986.89, 7986.89]
+[2022-11-20 01:28:57.950784] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7989.66, 8001.6, 7986.89]
+[2022-11-20 01:28:57.954229] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.954674] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.954702] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0010359s)
+[2022-11-20 01:28:57.954724] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003249s)
+[2022-11-20 01:28:57.954739] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0004808s)
+[2022-11-20 01:28:57.954754] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0080202s)
+[2022-11-20 01:28:57.954771] [0x00007fda8243b880] [info]   iter-28 : 1.3383e+04  1.4551e+04
+[2022-11-20 01:28:57.954780] [0x00007fda8243b880] [debug] 28-th iteration completed
+[2022-11-20 01:28:57.954795] [0x00007fda8243b880] [trace] alpha: 0.62
+[2022-11-20 01:28:57.954807] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.954819] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.954868] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.955530] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5316.96, 5316.96, 5316.96]
+[2022-11-20 01:28:57.955562] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.956171] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5289.43, 5289.43, 5289.43]
+[2022-11-20 01:28:57.956222] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.956862] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5291.21, 5291.22, 5291.22]
+[2022-11-20 01:28:57.956912] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5316.96, 5289.43, 5291.22]
+[2022-11-20 01:28:57.956952] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.956992] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.957676] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7991.34, 7991.34, 7991.34]
+[2022-11-20 01:28:57.957727] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.958358] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8002.87, 8002.87, 8002.87]
+[2022-11-20 01:28:57.958409] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.959054] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7986.62, 7986.62, 7986.62]
+[2022-11-20 01:28:57.959106] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7991.34, 8002.87, 7986.62]
+[2022-11-20 01:28:57.962363] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.962934] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.962996] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0010845s)
+[2022-11-20 01:28:57.963019] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003366s)
+[2022-11-20 01:28:57.963032] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0005036s)
+[2022-11-20 01:28:57.963045] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0083172s)
+[2022-11-20 01:28:57.963060] [0x00007fda8243b880] [info]   iter-29 : 1.3278e+04  1.4915e+04
+[2022-11-20 01:28:57.963071] [0x00007fda8243b880] [debug] 29-th iteration completed
+[2022-11-20 01:28:57.963088] [0x00007fda8243b880] [trace] alpha: 0.65
+[2022-11-20 01:28:57.963101] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.963115] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.963131] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.963770] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5452.84, 5452.81, 5452.81]
+[2022-11-20 01:28:57.963802] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.964413] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5502.75, 5502.75, 5502.75]
+[2022-11-20 01:28:57.964463] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.965297] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5529.15, 5529.14, 5529.14]
+[2022-11-20 01:28:57.965351] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.965832] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5534.45, 5534.45, 5534.45]
+[2022-11-20 01:28:57.965871] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 3, [5452.81, 5502.75, 5529.14, 5534.45]
+[2022-11-20 01:28:57.965888] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.965916] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.966401] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7988.22, 7988.23, 7988.23]
+[2022-11-20 01:28:57.966441] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.966898] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8002.23, 8002.23, 8002.23]
+[2022-11-20 01:28:57.966948] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.967407] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7990.21, 7990.21, 7990.21]
+[2022-11-20 01:28:57.967467] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7988.23, 8002.23, 7990.21]
+[2022-11-20 01:28:57.972123] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.973639] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.973670] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0011212s)
+[2022-11-20 01:28:57.973689] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003493s)
+[2022-11-20 01:28:57.973701] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0005261s)
+[2022-11-20 01:28:57.973712] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0095469s)
+[2022-11-20 01:28:57.973728] [0x00007fda8243b880] [info]   iter-30 : 1.3525e+04  1.4772e+04
+[2022-11-20 01:28:57.973760] [0x00007fda8243b880] [debug] 30-th iteration completed
+[2022-11-20 01:28:57.973802] [0x00007fda8243b880] [trace] alpha: 0.68
+[2022-11-20 01:28:57.973838] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.973875] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.973914] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.974563] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5532.79, 5532.81, 5532.81]
+[2022-11-20 01:28:57.974612] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.975330] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5525.16, 5525.16, 5525.16]
+[2022-11-20 01:28:57.975378] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.975861] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5528.99, 5528.99, 5528.99]
+[2022-11-20 01:28:57.975904] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5532.81, 5525.16, 5528.99]
+[2022-11-20 01:28:57.975955] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.975992] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.976473] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7992.49, 7992.49, 7992.49]
+[2022-11-20 01:28:57.976516] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.977005] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8007, 8007, 8007]
+[2022-11-20 01:28:57.977046] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.977552] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7993.7, 7993.7, 7993.7]
+[2022-11-20 01:28:57.977594] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7992.49, 8007, 7993.7]
+[2022-11-20 01:28:57.981367] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.981854] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.981878] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0011566s)
+[2022-11-20 01:28:57.981896] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003603s)
+[2022-11-20 01:28:57.981907] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0005442s)
+[2022-11-20 01:28:57.981918] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0097785s)
+[2022-11-20 01:28:57.981933] [0x00007fda8243b880] [info]   iter-31 : 1.3523e+04  1.5713e+04
+[2022-11-20 01:28:57.981943] [0x00007fda8243b880] [debug] 31-th iteration completed
+[2022-11-20 01:28:57.981960] [0x00007fda8243b880] [trace] alpha: 0.71
+[2022-11-20 01:28:57.981973] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.981986] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.982001] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.982627] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5907.32, 5907.06, 5907.11]
+[2022-11-20 01:28:57.982651] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.983363] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6040.47, 6040.57, 6040.57]
+[2022-11-20 01:28:57.983425] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.984100] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6094.06, 6094.07, 6094.07]
+[2022-11-20 01:28:57.984151] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.984836] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6114.03, 6114.04, 6114.04]
+[2022-11-20 01:28:57.984887] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.986041] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6129.81, 6129.82, 6129.82]
+[2022-11-20 01:28:57.986102] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 4, [5907.11, 6040.57, 6094.07, 6114.04, 6129.82]
+[2022-11-20 01:28:57.986164] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.986212] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.986794] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7988.75, 7988.76, 7988.76]
+[2022-11-20 01:28:57.986856] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.987426] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8004.82, 8004.82, 8004.82]
+[2022-11-20 01:28:57.987483] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.987983] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7995.6, 7995.6, 7995.6]
+[2022-11-20 01:28:57.988034] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7988.76, 8004.82, 7995.6]
+[2022-11-20 01:28:57.992475] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:57.993157] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:57.993197] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0011946s)
+[2022-11-20 01:28:57.993223] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003733s)
+[2022-11-20 01:28:57.993240] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0005676s)
+[2022-11-20 01:28:57.993256] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0100994s)
+[2022-11-20 01:28:57.993276] [0x00007fda8243b880] [info]   iter-32 : 1.4125e+04  1.5234e+04
+[2022-11-20 01:28:57.993292] [0x00007fda8243b880] [debug] 32-th iteration completed
+[2022-11-20 01:28:57.993340] [0x00007fda8243b880] [trace] alpha: 0.74
+[2022-11-20 01:28:57.993365] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:57.993385] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:57.994382] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.995090] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6030.26, 6030.2, 6030.2]
+[2022-11-20 01:28:57.995147] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.995968] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6000.79, 6000.79, 6000.79]
+[2022-11-20 01:28:57.996049] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.996696] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [6000.27, 6000.27, 6000.27]
+[2022-11-20 01:28:57.996749] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [6030.2, 6000.79, 6000.27]
+[2022-11-20 01:28:57.996791] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:57.996840] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.997399] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8014.8, 8014.8, 8014.8]
+[2022-11-20 01:28:57.997446] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.997999] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8030.02, 8030.02, 8030.02]
+[2022-11-20 01:28:57.998049] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:57.998597] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8019.72, 8019.72, 8019.72]
+[2022-11-20 01:28:57.998651] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [8014.8, 8030.02, 8019.72]
+[2022-11-20 01:28:58.001029] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.001486] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.001500] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0012287s)
+[2022-11-20 01:28:58.001512] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0003837s)
+[2022-11-20 01:28:58.001519] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0005826s)
+[2022-11-20 01:28:58.001526] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0103204s)
+[2022-11-20 01:28:58.001536] [0x00007fda8243b880] [info]   iter-33 : 1.4020e+04  1.4905e+04
+[2022-11-20 01:28:58.001542] [0x00007fda8243b880] [debug] 33-th iteration completed
+[2022-11-20 01:28:58.001554] [0x00007fda8243b880] [trace] alpha: 0.77
+[2022-11-20 01:28:58.001563] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:58.001572] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:58.001582] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.002793] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5902.65, 5902.64, 5902.64]
+[2022-11-20 01:28:58.002919] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.003747] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5887.51, 5887.51, 5887.51]
+[2022-11-20 01:28:58.003819] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.004403] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5887.54, 5887.54, 5887.54]
+[2022-11-20 01:28:58.004467] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5902.64, 5887.51, 5887.54]
+[2022-11-20 01:28:58.004503] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:58.004538] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.005034] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7980.57, 7980.57, 7980.57]
+[2022-11-20 01:28:58.005085] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.005537] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7986.96, 7986.96, 7986.96]
+[2022-11-20 01:28:58.005577] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.006060] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7974.34, 7974.34, 7974.34]
+[2022-11-20 01:28:58.006103] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7980.57, 7986.96, 7974.34]
+[2022-11-20 01:28:58.010904] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.011475] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.011509] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0012638s)
+[2022-11-20 01:28:58.011530] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.000397s)
+[2022-11-20 01:28:58.011554] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0006005s)
+[2022-11-20 01:28:58.011566] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0106012s)
+[2022-11-20 01:28:58.011577] [0x00007fda8243b880] [info]   iter-34 : 1.3862e+04  1.4874e+04
+[2022-11-20 01:28:58.011582] [0x00007fda8243b880] [debug] 34-th iteration completed
+[2022-11-20 01:28:58.011595] [0x00007fda8243b880] [trace] alpha: 0.8
+[2022-11-20 01:28:58.011603] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:58.011615] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:58.011631] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.012225] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5854.09, 5854.07, 5854.07]
+[2022-11-20 01:28:58.012260] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.012830] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5852.18, 5852.18, 5852.18]
+[2022-11-20 01:28:58.012882] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.013396] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5856.23, 5856.23, 5856.23]
+[2022-11-20 01:28:58.013440] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5854.07, 5852.18, 5856.23]
+[2022-11-20 01:28:58.013474] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:58.013512] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.013996] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7990.57, 7990.57, 7990.57]
+[2022-11-20 01:28:58.014035] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.014561] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8004.96, 8004.96, 8004.96]
+[2022-11-20 01:28:58.014600] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.015046] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7995, 7995, 7995]
+[2022-11-20 01:28:58.015084] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7990.57, 8004.96, 7995]
+[2022-11-20 01:28:58.018579] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.018996] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.019019] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0012968s)
+[2022-11-20 01:28:58.019037] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0004075s)
+[2022-11-20 01:28:58.019048] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0006078s)
+[2022-11-20 01:28:58.019058] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0107721s)
+[2022-11-20 01:28:58.019073] [0x00007fda8243b880] [info]   iter-35 : 1.3851e+04  1.4492e+04
+[2022-11-20 01:28:58.019083] [0x00007fda8243b880] [debug] 35-th iteration completed
+[2022-11-20 01:28:58.019099] [0x00007fda8243b880] [trace] alpha: 0.83
+[2022-11-20 01:28:58.019112] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:58.019127] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:58.019149] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.020841] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5728.02, 5727.99, 5727.99]
+[2022-11-20 01:28:58.020902] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.021553] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5708.8, 5708.8, 5708.8]
+[2022-11-20 01:28:58.021599] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.022152] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5709.32, 5709.32, 5709.32]
+[2022-11-20 01:28:58.022195] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5727.99, 5708.8, 5709.32]
+[2022-11-20 01:28:58.022230] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:58.022270] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.022727] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7982.86, 7982.86, 7982.86]
+[2022-11-20 01:28:58.022767] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.023245] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7994.25, 7994.25, 7994.25]
+[2022-11-20 01:28:58.023304] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.024009] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [7984.76, 7984.76, 7984.76]
+[2022-11-20 01:28:58.024072] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [7982.86, 7994.25, 7984.76]
+[2022-11-20 01:28:58.027573] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.027995] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.028017] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0013316s)
+[2022-11-20 01:28:58.028038] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0004192s)
+[2022-11-20 01:28:58.028050] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.000619s)
+[2022-11-20 01:28:58.028062] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0109429s)
+[2022-11-20 01:28:58.028076] [0x00007fda8243b880] [info]   iter-36 : 1.3694e+04  1.4526e+04
+[2022-11-20 01:28:58.028087] [0x00007fda8243b880] [debug] 36-th iteration completed
+[2022-11-20 01:28:58.028103] [0x00007fda8243b880] [trace] alpha: 0.86
+[2022-11-20 01:28:58.028116] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:58.028129] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:58.028145] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.028748] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5656.49, 5656.46, 5656.46]
+[2022-11-20 01:28:58.028776] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.029411] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5657.12, 5657.12, 5657.12]
+[2022-11-20 01:28:58.029461] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.030109] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5661.77, 5661.77, 5661.77]
+[2022-11-20 01:28:58.030153] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5656.46, 5657.12, 5661.77]
+[2022-11-20 01:28:58.030189] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:58.030225] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.030849] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8018.71, 8018.71, 8018.71]
+[2022-11-20 01:28:58.030893] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.031406] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8032.78, 8032.78, 8032.78]
+[2022-11-20 01:28:58.031448] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.031928] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8027.58, 8027.58, 8027.58]
+[2022-11-20 01:28:58.031968] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [8018.71, 8032.78, 8027.58]
+[2022-11-20 01:28:58.035824] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.036225] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.036241] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0013651s)
+[2022-11-20 01:28:58.036257] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0004304s)
+[2022-11-20 01:28:58.036267] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0006282s)
+[2022-11-20 01:28:58.036278] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0111312s)
+[2022-11-20 01:28:58.036291] [0x00007fda8243b880] [info]   iter-37 : 1.3689e+04  1.4570e+04
+[2022-11-20 01:28:58.036301] [0x00007fda8243b880] [debug] 37-th iteration completed
+[2022-11-20 01:28:58.036316] [0x00007fda8243b880] [trace] alpha: 0.89
+[2022-11-20 01:28:58.036328] [0x00007fda8243b880] [trace] OpenMP threads, 1
+[2022-11-20 01:28:58.036339] [0x00007fda8243b880] [trace] threads in branch x: 1 actual number of threads: 12 Eigen threads: 1
+[2022-11-20 01:28:58.036353] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.037100] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5685.97, 5686.03, 5686.03]
+[2022-11-20 01:28:58.037131] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.037747] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5699, 5699, 5699]
+[2022-11-20 01:28:58.037794] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.038416] [0x00007fda8243b880] [trace]       Metric optimization in X, sequence: [5706.13, 5706.13, 5706.13]
+[2022-11-20 01:28:58.038460] [0x00007fda8243b880] [trace]   Optimization summary X, iterations x: 2, [5686.03, 5699, 5706.13]
+[2022-11-20 01:28:58.038499] [0x00007fda8243b880] [trace] threads in branch y: 12 Eigen threads: 1
+[2022-11-20 01:28:58.038534] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.039150] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8016.08, 8016.08, 8016.08]
+[2022-11-20 01:28:58.039192] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.039654] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8023.83, 8023.83, 8023.83]
+[2022-11-20 01:28:58.039693] [0x00007fda8243b880] [trace]     Iterative net model update
+[2022-11-20 01:28:58.040147] [0x00007fda8243b880] [trace]       Metric optimization in Y, sequence: [8016.86, 8016.86, 8016.86]
+[2022-11-20 01:28:58.040193] [0x00007fda8243b880] [trace]   Optimization summary Y, iterations y: 2, [8016.08, 8023.83, 8016.86]
+[2022-11-20 01:28:58.043885] [0x00007fda8243b880] [trace] Quadratic Placement With Anchor Complete
+[2022-11-20 01:28:58.044385] [0x00007fda8243b880] [debug] Look-ahead legalization complete
+[2022-11-20 01:28:58.044422] [0x00007fda8243b880] [debug] (UpdateGridBinState time: 0.0013996s)
+[2022-11-20 01:28:58.044441] [0x00007fda8243b880] [debug] (UpdateClusterList time: 0.0004421s)
+[2022-11-20 01:28:58.044452] [0x00007fda8243b880] [debug] (FindMinimumBoxForLargestCluster time: 0.0006429s)
+[2022-11-20 01:28:58.044462] [0x00007fda8243b880] [debug] (RecursiveBisectionBlockSpreading time: 0.0113973s)
+[2022-11-20 01:28:58.044475] [0x00007fda8243b880] [info]   iter-38 : 1.3723e+04  1.4551e+04
+[2022-11-20 01:28:58.044484] [0x00007fda8243b880] [debug] 38-th iteration completed
+[2022-11-20 01:28:58.044498] [0x00007fda8243b880] [debug]   Iterative look-ahead legalization complete
+[2022-11-20 01:28:58.044508] [0x00007fda8243b880] [debug]   Total number of iteration: 39
+[2022-11-20 01:28:58.044518] [0x00007fda8243b880] [debug]   Lower bound: [11837.5, 10885.4, 10644.4, 10617.7, 10804.8, 10780.5, 10902.5, 11026.8, 11102.3, 11284.8, 11476.4, 11646.2, 11830.6, 11939.7, 11986, 12149.6, 12243.4, 12332.8, 12680.6, 12587, 12669, 12739.1, 12835.1, 12877.5, 12751.2, 13169.8, 13227.8, 13142.7, 13382.6, 13277.8, 13524.7, 13522.7, 14125.4, 14020, 13861.9, 13851.2, 13694.1, 13689.3, 13723]
+[2022-11-20 01:28:58.046304] [0x00007fda8243b880] [debug]   Upper bound: [30242.2, 20898.5, 18042.2, 17191.2, 16156.4, 15817.8, 16607.4, 16089.4, 15803.6, 15172.8, 15271.2, 14874.1, 14546.4, 14248.1, 14513.5, 14241.1, 14014.7, 14827.5, 14248.9, 14369.1, 14194.8, 14206.9, 14080.9, 13883.7, 14745.1, 14793.3, 14489.9, 15022.4, 14550.8, 14915.1, 14771.9, 15713.5, 15234.3, 14905.4, 14874.4, 14492.4, 14526.1, 14570, 14550.7]
+[2022-11-20 01:28:58.046385] [0x00007fda8243b880] [debug] cg time: 0.389302s, lal time: 0.0213421s
+[2022-11-20 01:28:58.046419] [0x00007fda8243b880] [info]   current weighted HPWL: 14550.7um
+[2022-11-20 01:28:58.046517] [0x00007fda8243b880] [info] [0;36mGlobal placement completed[0m
+[2022-11-20 01:28:58.046558] [0x00007fda8243b880] [info] (wall time: 0.420332s, cpu time: 2.375903)
+[2022-11-20 01:28:58.046745] [0x00007fda8243b880] [info] (peak memory: 5397MB,  current memory: 5397MB)
+[2022-11-20 01:28:58.046780] [0x00007fda8243b880] [debug] total triplets time: 0.0180139s, 0.0152476s, 0.0332615s
+[2022-11-20 01:28:58.046813] [0x00007fda8243b880] [debug] total matrix from triplets time: 0.0136065s, 0.0137138s, 0.0273203s
+[2022-11-20 01:28:58.046846] [0x00007fda8243b880] [debug] total cg solver time: 0.0846077s, 0.0642375s, 0.148845s
+[2022-11-20 01:28:58.046878] [0x00007fda8243b880] [debug] total loc update time: 0.0004321s, 0.0004083s, 0.0008404s
+[2022-11-20 01:28:58.046911] [0x00007fda8243b880] [debug] total x/y time: 0.11666s, 0.0936072s, 0.210267s
+[2022-11-20 01:28:58.046965] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:58.046996] [0x00007fda8243b880] [info] Start standard cluster well legalization
+[2022-11-20 01:28:58.047032] [0x00007fda8243b880] [info]   Well max plug distance: 75um, 125 
+[2022-11-20 01:28:58.047064] [0x00007fda8243b880] [info]   GridValueX: 0.6 um
+[2022-11-20 01:28:58.047096] [0x00007fda8243b880] [info]   Well spacing: 1.275um, 3
+[2022-11-20 01:28:58.047127] [0x00007fda8243b880] [info]   Well tap cell width: 2
+[2022-11-20 01:28:58.047572] [0x00007fda8243b880] [info] Max movable cell width: 18
+[2022-11-20 01:28:58.047603] [0x00007fda8243b880] [info] Using default gridded row width: 2*max_unplug_length_
+[2022-11-20 01:28:58.047633] [0x00007fda8243b880] [info]   Total number of columns: 5
+[2022-11-20 01:28:58.047662] [0x00007fda8243b880] [info]   Gridded row width: 130.8um, 218
+[2022-11-20 01:28:58.048468] [0x00007fda8243b880] [info] Maximum possible number of gridded rows in a column: 43
+[2022-11-20 01:28:58.048836] [0x00007fda8243b880] [info] Form block clustering
+[2022-11-20 01:28:58.049424] [0x00007fda8243b880] [info]   current weighted HPWL: 21314.1um
+[2022-11-20 01:28:58.049527] [0x00007fda8243b880] [info] Flip cluster orientation
+[2022-11-20 01:28:58.049563] [0x00007fda8243b880] [info]   current weighted HPWL: 21527.6um
+[2022-11-20 01:28:58.049650] [0x00007fda8243b880] [info] Perform local reordering
+[2022-11-20 01:28:58.049701] [0x00007fda8243b880] [info] reorder iteration: 0
+[2022-11-20 01:28:58.054620] [0x00007fda8243b880] [info]   current weighted HPWL: 24552.2um
+[2022-11-20 01:28:58.054746] [0x00007fda8243b880] [info] reorder iteration: 1
+[2022-11-20 01:28:58.059761] [0x00007fda8243b880] [info]   current weighted HPWL: 24720.6um
+[2022-11-20 01:28:58.059873] [0x00007fda8243b880] [info] reorder iteration: 2
+[2022-11-20 01:28:58.064847] [0x00007fda8243b880] [info]   current weighted HPWL: 24786.9um
+[2022-11-20 01:28:58.064972] [0x00007fda8243b880] [info] reorder iteration: 3
+[2022-11-20 01:28:58.071199] [0x00007fda8243b880] [info]   current weighted HPWL: 24854.6um
+[2022-11-20 01:28:58.071361] [0x00007fda8243b880] [info] reorder iteration: 4
+[2022-11-20 01:28:58.078465] [0x00007fda8243b880] [info]   current weighted HPWL: 24912.2um
+[2022-11-20 01:28:58.078614] [0x00007fda8243b880] [info] reorder iteration: 5
+[2022-11-20 01:28:58.085733] [0x00007fda8243b880] [info]   current weighted HPWL: 24957.3um
+[2022-11-20 01:28:58.085882] [0x00007fda8243b880] [info] Insert well tap cells
+[2022-11-20 01:28:58.086732] [0x00007fda8243b880] [info] Inserting complete: 362 well tap cell created
+[2022-11-20 01:28:58.086777] [0x00007fda8243b880] [info]   current weighted HPWL: 25001.3um
+[2022-11-20 01:28:58.086915] [0x00007fda8243b880] [info] [0;36mStandard Cluster Well Legalization completed[0m
+[2022-11-20 01:28:58.086956] [0x00007fda8243b880] [info] (wall time: 0.039987s, cpu time: 0.042292)
+[2022-11-20 01:28:58.087021] [0x00007fda8243b880] [info] (peak memory: 5397MB,  current memory: 5397MB)
+[2022-11-20 01:28:58.087053] [0x00007fda8243b880] [info] Writing PP and NP rect file: dali_outppnp.rect
+[2022-11-20 01:28:58.133399] [0x00007fda8243b880] [info] Writing N-well rect file: dali_outwell.rect
+[2022-11-20 01:28:58.186630] [0x00007fda8243b880] [info] Writing cluster rect file: dali_out_router.cluster
+[2022-11-20 01:28:58.198116] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:58.198190] [0x00007fda8243b880] [info] Start I/O Placement
+[2022-11-20 01:28:58.198203] [0x00007fda8243b880] [info] [0;36mI/O Placement complete![0m
+[2022-11-20 01:28:58.198258] [0x00007fda8243b880] [warning] IoPlace flag not specified, use --auto-place by default
+[2022-11-20 01:28:58.198288] [0x00007fda8243b880] [info] ------------------------------------------------------------
+[2022-11-20 01:28:58.198315] [0x00007fda8243b880] [info] Start I/O Placement
+[2022-11-20 01:28:58.198329] [0x00007fda8243b880] [info] [0;36mI/O Placement complete![0m
+[2022-11-20 01:28:58.198663] [0x00007fda8243b880] [info] Export Pplus/Nplus fillings to PhyDB
+[2022-11-20 01:28:58.198794] [0x00007fda8243b880] [info] Export N wells to PhyDB

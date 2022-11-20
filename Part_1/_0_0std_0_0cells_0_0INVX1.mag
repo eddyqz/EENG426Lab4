@@ -1,0 +1,107 @@
+magic
+tech sky130l
+timestamp 1668241888
+<< ndiffusion >>
+rect 5 11 13 12
+rect 5 8 6 11
+rect 9 8 13 11
+rect 5 6 13 8
+rect 15 11 20 12
+rect 15 8 16 11
+rect 19 8 20 11
+rect 15 6 20 8
+<< ndc >>
+rect 6 8 9 11
+rect 16 8 19 11
+<< ntransistor >>
+rect 13 6 15 12
+<< pdiffusion >>
+rect 5 26 13 27
+rect 5 23 6 26
+rect 9 23 13 26
+rect 5 19 13 23
+rect 15 23 20 27
+rect 15 20 16 23
+rect 19 20 20 23
+rect 15 19 20 20
+<< pdc >>
+rect 6 23 9 26
+rect 16 20 19 23
+<< ptransistor >>
+rect 13 19 15 27
+<< polysilicon >>
+rect 12 36 18 37
+rect 12 32 13 36
+rect 17 32 18 36
+rect 12 31 18 32
+rect 13 27 15 31
+rect 13 12 15 19
+rect 13 4 15 6
+<< pc >>
+rect 13 32 17 36
+<< m1 >>
+rect 12 36 18 37
+rect 12 32 13 36
+rect 17 32 18 36
+rect 12 31 18 32
+rect 5 26 10 27
+rect -5 25 6 26
+rect -5 22 -4 25
+rect -1 23 6 25
+rect 9 23 10 26
+rect -1 22 0 23
+rect 5 22 10 23
+rect 15 23 23 24
+rect -5 21 0 22
+rect 15 20 16 23
+rect 19 20 23 23
+rect 15 19 23 20
+rect 20 12 23 19
+rect -2 11 10 12
+rect -2 8 -1 11
+rect 2 8 6 11
+rect 9 8 10 11
+rect -2 7 10 8
+rect 15 11 23 12
+rect 15 8 16 11
+rect 19 8 23 11
+rect 15 7 23 8
+<< m2c >>
+rect -4 22 -1 25
+rect -1 8 2 11
+<< m2 >>
+rect -7 25 0 26
+rect -7 22 -4 25
+rect -1 22 0 25
+rect -7 21 0 22
+rect -4 11 3 12
+rect -4 8 -1 11
+rect 2 8 3 11
+rect -4 7 3 8
+<< labels >>
+rlabel ndiffusion 16 7 16 7 3 Y
+rlabel pdiffusion 16 20 16 20 3 Y
+rlabel polysilicon 14 13 14 13 3 A
+rlabel polysilicon 14 18 14 18 3 A
+rlabel pdiffusion 9 20 9 20 3 Vdd
+rlabel m1 s -4 22 0 26 6 Vdd
+port 3 nsew power input
+rlabel m2 -6 23 -6 23 3 Vdd
+rlabel m1 s 13 32 17 36 6 A
+port 1 nsew signal input
+rlabel pc 14 33 14 33 3 A
+port 1 e
+rlabel m1 s -2 7 2 11 6 GND
+port 4 nsew ground input
+rlabel m1 -1 8 -1 8 3 GND
+port 4 e
+rlabel ndiffusion 9 7 9 7 3 GND
+rlabel m2 -3 9 -3 9 2 GND
+rlabel m1 22 15 22 15 7 Y
+<< properties >>
+string LEFclass CORE
+string LEFsite CoreSite
+string FIXED_BBOX 0 0 32 36
+string LEFsymmetry X Y
+string LEFview TRUE
+<< end >>

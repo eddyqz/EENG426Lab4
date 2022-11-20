@@ -1,0 +1,1019 @@
+magic
+tech sky130l
+timestamp 1668241340
+<< error_s >>
+rect 601 951 602 952
+rect 644 951 645 952
+rect 697 951 698 952
+rect 740 951 741 952
+rect 793 951 794 952
+rect 836 951 837 952
+rect 152 940 156 941
+rect 184 940 188 941
+rect 216 940 220 941
+rect 248 940 252 941
+rect 280 940 284 941
+rect 312 940 316 941
+rect 584 940 588 941
+rect 616 940 620 941
+rect 648 940 652 941
+rect 680 940 684 941
+rect 712 940 716 941
+rect 744 940 748 941
+rect 776 940 780 941
+rect 808 940 812 941
+rect 840 940 844 941
+rect 872 940 876 941
+rect 155 874 159 875
+rect 187 874 191 875
+rect 219 874 223 875
+rect 251 874 255 875
+rect 283 874 287 875
+rect 315 874 319 875
+rect 347 874 351 875
+rect 379 874 383 875
+rect 411 874 415 875
+rect 443 874 447 875
+rect 603 874 607 875
+rect 635 874 639 875
+rect 667 874 671 875
+rect 699 874 703 875
+rect 731 874 735 875
+rect 763 874 767 875
+rect 795 874 799 875
+rect 827 874 831 875
+rect 859 874 863 875
+rect 152 844 156 845
+rect 184 844 188 845
+rect 216 844 220 845
+rect 248 844 252 845
+rect 280 844 284 845
+rect 696 844 700 845
+rect 768 844 772 845
+rect 800 844 804 845
+rect 155 782 159 783
+rect 187 782 191 783
+rect 259 782 263 783
+rect 443 782 447 783
+rect 475 782 479 783
+rect 507 782 511 783
+rect 539 782 543 783
+rect 571 782 575 783
+rect 603 782 607 783
+rect 224 700 228 701
+rect 155 630 159 631
+rect 187 630 191 631
+rect 219 630 223 631
+rect 251 630 255 631
+rect 427 630 431 631
+rect 499 630 503 631
+rect 152 116 156 117
+rect 184 116 188 117
+rect 216 116 220 117
+<< m1 >>
+rect 262 1004 266 1008
+rect 438 1004 442 1008
+rect 622 1004 626 1008
+rect 798 1004 802 1008
+rect 80 930 84 934
+rect 980 902 984 906
+rect 80 850 84 854
+rect 980 798 984 802
+rect 80 774 84 778
+rect 80 694 84 698
+rect 980 694 984 698
+rect 80 618 84 622
+rect 980 590 984 594
+rect 80 538 84 542
+rect 980 486 984 490
+rect 80 462 84 466
+rect 80 382 84 386
+rect 980 382 984 386
+rect 80 306 84 310
+rect 980 278 984 282
+rect 80 226 84 230
+rect 980 174 984 178
+rect 80 150 84 154
+rect 534 72 538 76
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_alainv
+timestamp 1668241340
+transform 1 0 192 0 1 88
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_alainv
+timestamp 1668241340
+transform 1 0 160 0 1 88
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_alainv
+timestamp 1668241340
+transform 1 0 128 0 1 88
+box -7 4 28 37
+use welltap_svt  __well_tap__0
+timestamp 1668240734
+transform 1 0 104 0 1 92
+box 8 4 12 24
+use circuitppnp  ppnps
+timestamp 0
+transform 1 0 80 0 1 72
+box 0 0 1 1
+use circuitwell  npwells
+timestamp 0
+transform 1 0 80 0 1 72
+box 0 0 1 1
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_55_6
+timestamp 1668241340
+transform 1 0 224 0 1 88
+box -7 4 28 37
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_55_6
+timestamp 1668240734
+transform 1 0 296 0 1 84
+box 8 4 76 44
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_55_6_anx
+timestamp 1668240734
+transform 1 0 256 0 1 84
+box 8 4 36 60
+use _0_0std_0_0cells_0_0FAX1  add_afa_54_6
+timestamp 1668240734
+transform 1 0 408 0 1 76
+box 8 4 140 84
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_55_6
+timestamp 1668240734
+transform 1 0 376 0 1 88
+box 8 4 28 36
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_54_6
+timestamp 1668241340
+transform 1 0 600 0 1 88
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_54_6_anx
+timestamp 1668240734
+transform 1 0 552 0 1 84
+box 8 4 36 60
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_53_6
+timestamp 1668241340
+transform 1 0 744 0 1 88
+box -7 4 28 37
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_54_6
+timestamp 1668240734
+transform 1 0 648 0 1 84
+box 8 4 76 44
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_53_6
+timestamp 1668240734
+transform 1 0 832 0 1 84
+box 8 4 76 44
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_53_6_anx
+timestamp 1668240734
+transform 1 0 792 0 1 84
+box 8 4 36 60
+use welltap_svt  __well_tap__1
+timestamp 1668240734
+transform 1 0 920 0 1 92
+box 8 4 12 24
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_55_6
+timestamp 1668240734
+transform 1 0 128 0 -1 244
+box 8 4 84 48
+use welltap_svt  __well_tap__2
+timestamp 1668240734
+transform 1 0 104 0 -1 236
+box 8 4 12 24
+use _0_0std_0_0cells_0_0FAX1  add_afa_55_6
+timestamp 1668240734
+transform 1 0 296 0 -1 252
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_55_6_al
+timestamp 1668240734
+transform 1 0 216 0 -1 244
+box 8 4 76 48
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_54_6_al
+timestamp 1668240734
+transform 1 0 440 0 -1 244
+box 8 4 76 48
+use _0_0std_0_0cells_0_0FAX1  add_afa_53_6
+timestamp 1668240734
+transform 1 0 528 0 -1 252
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_53_6
+timestamp 1668240734
+transform 1 0 712 0 -1 244
+box 8 4 84 48
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_54_6
+timestamp 1668240734
+transform 1 0 680 0 -1 240
+box 8 4 28 36
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_53_6_al
+timestamp 1668240734
+transform 1 0 800 0 -1 244
+box 8 4 76 48
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_53_6
+timestamp 1668240734
+transform 1 0 880 0 -1 240
+box 8 4 28 36
+use welltap_svt  __well_tap__3
+timestamp 1668240734
+transform 1 0 920 0 -1 236
+box 8 4 12 24
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_55_6
+timestamp 1668240734
+transform 1 0 128 0 1 252
+box 8 4 84 48
+use welltap_svt  __well_tap__4
+timestamp 1668240734
+transform 1 0 104 0 1 260
+box 8 4 12 24
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_54_6
+timestamp 1668240734
+transform 1 0 304 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_55_6
+timestamp 1668240734
+transform 1 0 216 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_54_6
+timestamp 1668240734
+transform 1 0 392 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_54_6
+timestamp 1668240734
+transform 1 0 480 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_53_6
+timestamp 1668240734
+transform 1 0 576 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_53_6
+timestamp 1668240734
+transform 1 0 672 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_53_6
+timestamp 1668240734
+transform 1 0 768 0 1 252
+box 8 4 84 48
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_52_6_anx
+timestamp 1668240734
+transform 1 0 864 0 1 252
+box 8 4 36 60
+use welltap_svt  __well_tap__5
+timestamp 1668240734
+transform 1 0 920 0 1 260
+box 8 4 12 24
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_57_6_anx
+timestamp 1668240734
+transform 1 0 128 0 -1 396
+box 8 4 36 60
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_57_6_al
+timestamp 1668240734
+transform 1 0 168 0 -1 396
+box 8 4 76 48
+use welltap_svt  __well_tap__6
+timestamp 1668240734
+transform 1 0 104 0 -1 388
+box 8 4 12 24
+use _0_0std_0_0cells_0_0FAX1  add_afa_57_6
+timestamp 1668240734
+transform 1 0 336 0 -1 404
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_55_6
+timestamp 1668240734
+transform 1 0 248 0 -1 396
+box 8 4 84 48
+use _0_0std_0_0cells_0_0FAX1  add_afa_52_6
+timestamp 1668240734
+transform 1 0 576 0 -1 404
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_54_6
+timestamp 1668240734
+transform 1 0 480 0 -1 396
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_52_6_al
+timestamp 1668240734
+transform 1 0 720 0 -1 396
+box 8 4 76 48
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_52_6
+timestamp 1668241340
+transform 1 0 800 0 -1 392
+box -7 4 28 37
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_52_6
+timestamp 1668240734
+transform 1 0 832 0 -1 396
+box 8 4 76 44
+use welltap_svt  __well_tap__7
+timestamp 1668240734
+transform 1 0 920 0 -1 388
+box 8 4 12 24
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_57_6
+timestamp 1668240734
+transform 1 0 160 0 1 404
+box 8 4 76 44
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_57_6
+timestamp 1668240734
+transform 1 0 128 0 1 408
+box 8 4 28 36
+use welltap_svt  __well_tap__8
+timestamp 1668240734
+transform 1 0 104 0 1 412
+box 8 4 12 24
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_57_6
+timestamp 1668240734
+transform 1 0 240 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_57_6
+timestamp 1668240734
+transform 1 0 336 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0FAX1  add_afa_56_6
+timestamp 1668240734
+transform 1 0 336 0 -1 544
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_57_6
+timestamp 1668240734
+transform 1 0 448 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_52_6
+timestamp 1668240734
+transform 1 0 560 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_52_6
+timestamp 1668240734
+transform 1 0 672 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0FAX1  add_afa_51_6
+timestamp 1668240734
+transform 1 0 648 0 -1 544
+box 8 4 140 84
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_52_6
+timestamp 1668240734
+transform 1 0 784 0 1 404
+box 8 4 84 48
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_51_6_anx
+timestamp 1668240734
+transform 1 0 872 0 -1 536
+box 8 4 36 60
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_52_6
+timestamp 1668240734
+transform 1 0 880 0 1 408
+box 8 4 28 36
+use welltap_svt  __well_tap__9
+timestamp 1668240734
+transform 1 0 920 0 1 412
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_57_6
+timestamp 1668241340
+transform 1 0 128 0 -1 532
+box -7 4 28 37
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_57_6
+timestamp 1668240734
+transform 1 0 160 0 -1 536
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_56_6
+timestamp 1668240734
+transform 1 0 144 0 1 544
+box 8 4 84 48
+use welltap_svt  __well_tap__10
+timestamp 1668240734
+transform 1 0 104 0 -1 528
+box 8 4 12 24
+use welltap_svt  __well_tap__12
+timestamp 1668240734
+transform 1 0 104 0 1 552
+box 8 4 12 24
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_56_6
+timestamp 1668240734
+transform 1 0 232 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_56_6
+timestamp 1668240734
+transform 1 0 248 0 -1 536
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_56_6
+timestamp 1668240734
+transform 1 0 320 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_56_6
+timestamp 1668241340
+transform 1 0 408 0 1 548
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_56_6_anx
+timestamp 1668240734
+transform 1 0 440 0 1 544
+box 8 4 36 60
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_56_6
+timestamp 1668240734
+transform 1 0 480 0 1 544
+box 8 4 76 44
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_51_6
+timestamp 1668240734
+transform 1 0 560 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_52_6
+timestamp 1668240734
+transform 1 0 560 0 -1 536
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_56_6_al
+timestamp 1668240734
+transform 1 0 480 0 -1 536
+box 8 4 76 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_51_6
+timestamp 1668240734
+transform 1 0 736 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_51_6
+timestamp 1668240734
+transform 1 0 648 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_51_6
+timestamp 1668240734
+transform 1 0 824 0 1 544
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_51_6_al
+timestamp 1668240734
+transform 1 0 792 0 -1 536
+box 8 4 76 48
+use welltap_svt  __well_tap__11
+timestamp 1668240734
+transform 1 0 920 0 -1 528
+box 8 4 12 24
+use welltap_svt  __well_tap__13
+timestamp 1668240734
+transform 1 0 920 0 1 552
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 192 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 128 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 160 0 -1 656
+box -7 4 28 37
+use welltap_svt  __well_tap__14
+timestamp 1668240734
+transform 1 0 104 0 -1 652
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 224 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccB_acinv
+timestamp 1668241340
+transform 1 0 256 0 -1 656
+box -7 4 28 37
+use _0_0cell_0_0gcelem3x0  ymerge_amccB_acelem_acx0
+timestamp 1668240734
+transform 1 0 288 0 -1 656
+box 8 4 108 36
+use _0_0std_0_0cells_0_0INVX1  ymerge_acA
+timestamp 1668241340
+transform 1 0 432 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_ainv1
+timestamp 1668241340
+transform 1 0 400 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NAND2X1  ymerge_asplitA
+timestamp 1668240734
+transform 1 0 464 0 -1 660
+box 8 4 36 36
+use _0_0std_0_0cells_0_0INVX1  ymerge_acB
+timestamp 1668241340
+transform 1 0 504 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NAND2X1  ymerge_asplitB
+timestamp 1668240734
+transform 1 0 536 0 -1 660
+box 8 4 36 36
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_56_6
+timestamp 1668240734
+transform 1 0 576 0 -1 656
+box 8 4 28 36
+use _0_0std_0_0cells_0_0LATCH  ymerge_adatalatches_50_6
+timestamp 1668240734
+transform 1 0 712 0 -1 660
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  output_acopybuf_adatalatches_50_6
+timestamp 1668240734
+transform 1 0 616 0 -1 660
+box 8 4 84 48
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_51_6
+timestamp 1668241340
+transform 1 0 800 0 -1 656
+box -7 4 28 37
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_51_6
+timestamp 1668240734
+transform 1 0 832 0 -1 660
+box 8 4 76 44
+use welltap_svt  __well_tap__15
+timestamp 1668240734
+transform 1 0 920 0 -1 652
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_ainv1
+timestamp 1668241340
+transform 1 0 128 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 200 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X1  yzero_acontrolgate
+timestamp 1668240734
+transform 1 0 160 0 1 672
+box 8 4 36 40
+use welltap_svt  __well_tap__16
+timestamp 1668240734
+transform 1 0 104 0 1 676
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 232 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_acinv
+timestamp 1668241340
+transform 1 0 304 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X1  ymerge_amccB_aresetnor
+timestamp 1668240734
+transform 1 0 264 0 1 672
+box 8 4 36 40
+use _0_0cell_0_0gcelem3x0  ymerge_amccA_acelem_acx0
+timestamp 1668240734
+transform 1 0 336 0 1 672
+box 8 4 108 36
+use _0_0std_0_0cells_0_0INVX1  ymerge_acbMaker
+timestamp 1668241340
+transform 1 0 448 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0FAX1  add_afa_50_6
+timestamp 1668240734
+transform 1 0 536 0 1 660
+box 8 4 140 84
+use _0_0std_0_0cells_0_0NOR2X1  initialBuf_afcc_aresetnor
+timestamp 1668240734
+transform 1 0 488 0 1 672
+box 8 4 36 40
+use _0_0std_0_0cells_0_0LATCHINV  initialBuf_adatalatches_50_6_al
+timestamp 1668240734
+transform 1 0 688 0 1 668
+box 8 4 76 48
+use _0_0std_0_0cells_0_0INVX1  ymerge_amuxinv_50_6
+timestamp 1668241340
+transform 1 0 768 0 1 672
+box -7 4 28 37
+use _0_0std_0_0cells_0_0MUX2X1  ymerge_amuxes_50_6
+timestamp 1668240734
+transform 1 0 800 0 1 668
+box 8 4 76 44
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_51_6
+timestamp 1668240734
+transform 1 0 880 0 1 672
+box 8 4 28 36
+use welltap_svt  __well_tap__17
+timestamp 1668240734
+transform 1 0 920 0 1 676
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 128 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 160 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_ainv2
+timestamp 1668241340
+transform 1 0 192 0 -1 808
+box -7 4 28 37
+use welltap_svt  __well_tap__18
+timestamp 1668240734
+transform 1 0 104 0 -1 804
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_aoutgateinv
+timestamp 1668241340
+transform 1 0 264 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 336 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NAND2X1  ymerge_apg_apulsegen
+timestamp 1668240734
+transform 1 0 224 0 -1 812
+box 8 4 36 36
+use _0_0std_0_0cells_0_0NOR2X1  ymerge_aoutgate
+timestamp 1668240734
+transform 1 0 296 0 -1 808
+box 8 4 36 40
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 480 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_ainv2
+timestamp 1668241340
+transform 1 0 448 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X1  ymerge_amccA_aresetnor
+timestamp 1668240734
+transform 1 0 368 0 -1 808
+box 8 4 36 40
+use _0_0std_0_0cells_0_0NAND2X1  output_acopybuf_afcc_apg_apulsegen
+timestamp 1668240734
+transform 1 0 408 0 -1 812
+box 8 4 36 36
+use _0_0std_0_0cells_0_0INVX1  ymerge_amccA_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 512 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_55_6
+timestamp 1668241340
+transform 1 0 608 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_56_6
+timestamp 1668241340
+transform 1 0 576 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_57_6
+timestamp 1668241340
+transform 1 0 544 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_ainv1
+timestamp 1668241340
+transform 1 0 728 0 -1 808
+box -7 4 28 37
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesA_50_6
+timestamp 1668240734
+transform 1 0 640 0 -1 812
+box 8 4 84 48
+use _0_0std_0_0cells_0_0LATCH  add_adatalatchesB_50_6
+timestamp 1668240734
+transform 1 0 816 0 -1 812
+box 8 4 84 48
+use _0_0std_0_0cells_0_0NOR2X2  initialBuf_adatalatches_50_6_anx
+timestamp 1668240734
+transform 1 0 760 0 -1 812
+box 8 4 36 60
+use welltap_svt  __well_tap__19
+timestamp 1668240734
+transform 1 0 920 0 -1 804
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 192 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 128 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 160 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 192 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 160 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_apg_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 128 0 1 816
+box -7 4 28 37
+use welltap_svt  __well_tap__20
+timestamp 1668240734
+transform 1 0 104 0 1 820
+box 8 4 12 24
+use welltap_svt  __well_tap__22
+timestamp 1668240734
+transform 1 0 104 0 -1 896
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_54_6
+timestamp 1668241340
+transform 1 0 224 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_55_6
+timestamp 1668241340
+transform 1 0 288 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_56_6
+timestamp 1668241340
+transform 1 0 320 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  ymerge_adel_adelay_57_6
+timestamp 1668241340
+transform 1 0 352 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 256 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 256 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_apg_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 224 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_acinv
+timestamp 1668241340
+transform 1 0 288 0 1 816
+box -7 4 28 37
+use _0_0cell_0_0gcelem2x0  output_acopybuf_afcc_acelem_acx0
+timestamp 1668240734
+transform 1 0 320 0 1 816
+box 8 4 84 36
+use _0_0std_0_0cells_0_0INVX1  output_aacknowledgecelem_ainv
+timestamp 1668241340
+transform 1 0 416 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 384 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_ainv1
+timestamp 1668241340
+transform 1 0 448 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_acinv
+timestamp 1668241340
+transform 1 0 448 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NOR2X1  output_acopybuf_afcc_aresetnor
+timestamp 1668240734
+transform 1 0 408 0 1 816
+box 8 4 36 40
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_ainv2
+timestamp 1668241340
+transform 1 0 608 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_acinv
+timestamp 1668241340
+transform 1 0 520 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0NAND2X1  add_afcc_apg_apulsegen
+timestamp 1668240734
+transform 1 0 568 0 -1 904
+box 8 4 36 36
+use _0_0std_0_0cells_0_0NOR2X1  add_afcc_aresetnor
+timestamp 1668240734
+transform 1 0 480 0 1 816
+box 8 4 36 40
+use _0_0cell_0_0gcelem2x0  add_afcc_acelem_acx0
+timestamp 1668240734
+transform 1 0 480 0 -1 900
+box 8 4 84 36
+use _0_0cell_0_0gcelem2x0  initialBuf_afcc_acelem_acx0
+timestamp 1668240734
+transform 1 0 552 0 1 816
+box 8 4 84 36
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 736 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 640 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 672 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 704 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 704 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_adel_adelay_54_6
+timestamp 1668241340
+transform 1 0 672 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0TIELOX1  add_ainitialcarry
+timestamp 1668240734
+transform 1 0 640 0 1 816
+box 8 4 28 36
+use _0_0std_0_0cells_0_0NAND2X1  initialBuf_afcc_apg_apulsegen
+timestamp 1668240734
+transform 1 0 736 0 1 812
+box 8 4 36 36
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_55_6
+timestamp 1668241340
+transform 1 0 832 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_56_6
+timestamp 1668241340
+transform 1 0 864 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_57_6
+timestamp 1668241340
+transform 1 0 848 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 768 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 800 0 -1 900
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 808 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  initialBuf_afcc_apg_ainv2
+timestamp 1668241340
+transform 1 0 776 0 1 816
+box -7 4 28 37
+use _0_0std_0_0cells_0_0TIELOX1  yzero_atempt_50_6
+timestamp 1668240734
+transform 1 0 880 0 1 816
+box 8 4 28 36
+use welltap_svt  __well_tap__21
+timestamp 1668240734
+transform 1 0 920 0 1 820
+box 8 4 12 24
+use welltap_svt  __well_tap__23
+timestamp 1668240734
+transform 1 0 920 0 -1 896
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 128 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 160 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 192 0 1 912
+box -7 4 28 37
+use welltap_svt  __well_tap__24
+timestamp 1668240734
+transform 1 0 104 0 1 916
+box 8 4 12 24
+use welltap_svt  __well_tap__26
+timestamp 1668240734
+transform 1 0 104 0 -1 984
+box 8 4 12 24
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_54_6
+timestamp 1668241340
+transform 1 0 224 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_55_6
+timestamp 1668241340
+transform 1 0 256 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_56_6
+timestamp 1668241340
+transform 1 0 288 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  output_acopybuf_afcc_adel_adelay_57_6
+timestamp 1668241340
+transform 1 0 320 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_ainputcelem_ainv
+timestamp 1668241340
+transform 1 0 440 0 1 912
+box -7 4 28 37
+use _0_0cell_0_0gcelem2x0  add_ainputcelem_acelem_acx0
+timestamp 1668240734
+transform 1 0 352 0 1 912
+box 8 4 84 36
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 560 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 592 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_50_6
+timestamp 1668241340
+transform 1 0 536 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_51_6
+timestamp 1668241340
+transform 1 0 584 0 -1 988
+box -7 4 28 37
+use _0_0cell_0_0gcelem2x0  output_aacknowledgecelem_acelem_acx0
+timestamp 1668240734
+transform 1 0 472 0 1 912
+box 8 4 84 36
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 624 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_apg_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 656 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_52_6
+timestamp 1668241340
+transform 1 0 632 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_53_6
+timestamp 1668241340
+transform 1 0 680 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_54_6
+timestamp 1668241340
+transform 1 0 728 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_53_6
+timestamp 1668241340
+transform 1 0 720 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_54_6
+timestamp 1668241340
+transform 1 0 688 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_alainv
+timestamp 1668241340
+transform 1 0 880 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_55_6
+timestamp 1668241340
+transform 1 0 776 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_56_6
+timestamp 1668241340
+transform 1 0 824 0 -1 988
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_afcc_adel_adelay_57_6
+timestamp 1668241340
+transform 1 0 816 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_50_6
+timestamp 1668241340
+transform 1 0 848 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_51_6
+timestamp 1668241340
+transform 1 0 784 0 1 912
+box -7 4 28 37
+use _0_0std_0_0cells_0_0INVX1  add_adelay_adelay_52_6
+timestamp 1668241340
+transform 1 0 752 0 1 912
+box -7 4 28 37
+use welltap_svt  __well_tap__25
+timestamp 1668240734
+transform 1 0 920 0 1 916
+box 8 4 12 24
+use welltap_svt  __well_tap__27
+timestamp 1668240734
+transform 1 0 920 0 -1 984
+box 8 4 12 24
+<< labels >>
+rlabel m1 s 980 902 984 906 6 L.d[0]
+port 0 nsew signal input
+rlabel m1 s 980 694 984 698 6 L.d[1]
+port 1 nsew signal input
+rlabel m1 s 980 486 984 490 6 L.d[2]
+port 2 nsew signal input
+rlabel m1 s 980 278 984 282 6 L.d[3]
+port 3 nsew signal input
+rlabel m1 s 80 306 84 310 6 L.d[4]
+port 4 nsew signal input
+rlabel m1 s 80 382 84 386 6 L.d[5]
+port 5 nsew signal input
+rlabel m1 s 80 774 84 778 6 L.d[6]
+port 6 nsew signal input
+rlabel m1 s 80 538 84 542 6 L.d[7]
+port 7 nsew signal input
+rlabel m1 s 438 1004 442 1008 6 L.r
+port 8 nsew signal input
+rlabel m1 s 798 1004 802 1008 6 L.a
+port 9 nsew signal tristate
+rlabel m1 s 534 72 538 76 6 C.d[0]
+port 10 nsew signal input
+rlabel m1 s 80 850 84 854 6 C.r
+port 11 nsew signal input
+rlabel m1 s 80 930 84 934 6 C.a
+port 12 nsew signal tristate
+rlabel m1 s 980 798 984 802 6 R.d[0]
+port 13 nsew signal tristate
+rlabel m1 s 980 590 984 594 6 R.d[1]
+port 14 nsew signal tristate
+rlabel m1 s 980 382 984 386 6 R.d[2]
+port 15 nsew signal tristate
+rlabel m1 s 980 174 984 178 6 R.d[3]
+port 16 nsew signal tristate
+rlabel m1 s 80 150 84 154 6 R.d[4]
+port 17 nsew signal tristate
+rlabel m1 s 80 226 84 230 6 R.d[5]
+port 18 nsew signal tristate
+rlabel m1 s 80 694 84 698 6 R.d[6]
+port 19 nsew signal tristate
+rlabel m1 s 80 462 84 466 6 R.d[7]
+port 20 nsew signal tristate
+rlabel m1 s 262 1004 266 1008 6 R.r
+port 21 nsew signal tristate
+rlabel m1 s 622 1004 626 1008 6 R.a
+port 22 nsew signal input
+rlabel m1 s 80 618 84 622 6 Reset
+port 23 nsew signal input
+<< end >>
